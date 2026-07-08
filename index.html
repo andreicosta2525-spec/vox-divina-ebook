@@ -1,2391 +1,1878 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
 <head>
-  <!-- SEO & Meta Tags Completos -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>200 Orações Poderosas | eBook Gospel por Laís Fagundes</title>
-  <meta name="description" content="Fortaleça sua fé diária, encontre paz de espírito, proteção celestial e milagres com o eBook 200 Orações Poderosas para Todas as Situações. Escrito por Laís Fagundes.">
-  <meta name="keywords" content="orações poderosas, eBook gospel, fé em Deus, devocional diário, Laís Fagundes, oração de cura, oração de proteção, prosperidade evangélica, Vox Divina, kiwify">
-  <meta name="author" content="Laís Fagundes - Vox Divina">
+  
+  <!-- SEO Meta Tags -->
+  <title>Vox Divina | 200 Orações Poderosas para Todas as Situações</title>
+  <meta name="description" content="Fortaleça sua fé diariamente com 200 orações poderosas e organizadas por temas. Descubra paz, proteção, cura e libertação através do e-book oficial da Vox Divina.">
+  <meta name="keywords" content="Vox Divina, e-book cristão, 200 orações, orações poderosas, fé cristã, Deus, Jesus Cristo, paz espiritual, plano de oração">
   <meta name="robots" content="index, follow">
-
-  <!-- Open Graph / Facebook -->
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Vox Divina | 200 Orações Poderosas para Todas as Situações">
+  <meta property="og:description" content="Transforme sua vida espiritual com orações organizadas por temas. Adquira agora por apenas R$ 12,99.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&q=80&w=1200">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ais-pre-bx6soeowb4el3vbfulbyq5-381611963026.us-east1.run.app">
-  <meta property="og:title" content="200 Orações Poderosas para Todas as Situações - eBook Gospel">
-  <meta property="og:description" content="Fortaleça sua comunhão com o Pai. Descubra orações inspiradoras de cura, libertação, proteção e família neste eBook exclusivo de Laís Fagundes.">
-  <meta property="og:image" content="./src/assets/images/hero_bible_prayer_1783469301545.jpg">
-
-  <!-- Twitter -->
+  <meta property="og:url" content="https://youtube.com/@voxdivina-96">
+  
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="200 Orações Poderosas para Todas as Situações - eBook Gospel">
-  <meta name="twitter:description" content="Fortaleça sua comunhão com o Pai. Descubra orações de proteção, cura e renovação espiritual.">
-  <meta name="twitter:image" content="./src/assets/images/hero_bible_prayer_1783469301545.jpg">
-
-  <!-- Fontes Google Premium -->
+  <meta name="twitter:title" content="Vox Divina | 200 Orações Poderosas">
+  <meta name="twitter:description" content="Transforme sua vida espiritual hoje. E-book completo de orações com bônus exclusivos.">
+  
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- Favicon Premium / Ícone de Cruz Dourada -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23D4AF37'%3E%3Cpath d='M11 2h2v7h5v2h-5v11h-2v-11H6V9h5V2z'/%3E%3C/svg%3E">
-
-  <!-- JSON-LD Schema.org para eBook -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Book",
-    "name": "200 Orações Poderosas para Todas as Situações",
-    "author": {
-      "@type": "Person",
-      "name": "Laís Fagundes"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Vox Divina"
-    },
-    "description": "Descubra 200 Orações Poderosas para fortalecer sua fé, encontrar paz e viver mais próximo de Deus todos os dias.",
-    "genre": "Gospel / Christian",
-    "bookFormat": "EBook",
-    "offers": {
-      "@type": "Offer",
-      "price": "12.99",
-      "priceCurrency": "BRL",
-      "availability": "https://schema.org/InStock",
-      "url": "https://ais-pre-bx6soeowb4el3vbfulbyq5-381611963026.us-east1.run.app#comprar"
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: {
+              DEFAULT: '#C5A059',
+              light: '#FAF6EE',
+              dark: '#8E7037',
+              glow: '#E6C787'
+            },
+            navy: {
+              DEFAULT: '#12110F',
+              light: '#1D1C1A',
+              dark: '#090909'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          }
+        }
+      }
     }
-  }
   </script>
 
+  <!-- Lucide Icons (Universal web icons) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
   <style>
-    /* DESIGN SYSTEM: PROFESSIONAL POLISH & REGRAS VISUAIS */
-    :root {
-      --primary: #0B3D2E;
-      --primary-dark: #06241b;
-      --primary-light: #165d48;
-      --secondary: #D4AF37;
-      --secondary-dark: #b89327;
-      --secondary-light: #e6c557;
-      --secondary-gradient: linear-gradient(135deg, #D4AF37 0%, #b89327 100%);
-      --text: #333333;
-      --text-light: #ffffff;
-      --text-muted: #666666;
-      --bg-light: #F4F7F5;
-      --bg-white: #ffffff;
-      --radius: 12px;
-      --radius-lg: 24px;
-      --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.03);
-      --shadow-md: 0 10px 20px rgba(0, 0, 0, 0.05);
-      --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
-      --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      scroll-behavior: smooth;
-      font-size: 16px;
-    }
-
-    body {
-      font-family: 'Poppins', sans-serif;
-      color: var(--text);
-      background-color: var(--bg-white);
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    /* CUSTOM SCROLLBAR */
+    /* Custom Scrollbar */
     ::-webkit-scrollbar {
-      width: 8px;
+      width: 10px;
     }
     ::-webkit-scrollbar-track {
-      background: #f1f1f1;
+      background: #090909;
     }
     ::-webkit-scrollbar-thumb {
-      background: var(--primary);
-      border-radius: 4px;
+      background: #C5A059;
+      border-radius: 5px;
     }
     ::-webkit-scrollbar-thumb:hover {
-      background: var(--primary-light);
+      background: #8E7037;
     }
 
-    h1, h2, h3, h4, h5, h6 {
-      font-weight: 700;
-      line-height: 1.25;
-      color: var(--primary);
+    /* Gold Glow Animation & Ripple */
+    .gold-glow {
+      box-shadow: 0 0 20px rgba(197, 160, 89, 0.25);
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .gold-glow:hover {
+      box-shadow: 0 0 35px rgba(197, 160, 89, 0.5);
+      transform: translateY(-4px);
+    }
+    .text-gold-gradient {
+      background: linear-gradient(135deg, #FFF9E6 0%, #C5A059 50%, #8E7037 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
-    p {
-      color: var(--text-muted);
-      font-weight: 300;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-
-    .section-padding {
-      padding: 90px 0;
-    }
-
-    .text-center {
-      text-align: center;
-    }
-
-    /* SCROLL REVEAL CLASS */
-    .reveal {
-      opacity: 0;
-      transform: translateY(30px);
-      transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-
-    .reveal.active {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    /* PREMIUM RIPPLE BUTTONS */
-    .btn {
-      position: relative;
-      display: inline-flex;
+    /* Floating Preloader */
+    #preloader {
+      position: fixed;
+      inset: 0;
+      background: #090909;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 14px 32px;
-      font-size: 0.9rem;
-      font-weight: 600;
-      border-radius: 50px;
-      cursor: pointer;
-      overflow: hidden;
-      transition: var(--transition);
-      border: none;
-      outline: none;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-      box-shadow: var(--shadow-sm);
+      transition: opacity 0.5s ease;
     }
 
-    .btn-gold {
-      background: var(--secondary-gradient);
-      color: var(--primary-dark);
-      box-shadow: 0 4px 15px rgba(212, 175, 55, 0.25);
+    /* Custom Cursor styles */
+    .custom-cursor {
+      width: 20px;
+      height: 20px;
+      border: 2px solid #C5A059;
+      border-radius: 50%;
+      position: fixed;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 10000;
+      transition: width 0.2s, height 0.2s, background-color 0.2s;
+      mix-blend-mode: difference;
+    }
+    .custom-cursor-dot {
+      width: 4px;
+      height: 4px;
+      background-color: #C5A059;
+      border-radius: 50%;
+      position: fixed;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 10000;
     }
 
-    .btn-gold:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4);
-    }
-
-    .btn-outline-gold {
-      background: transparent;
-      border: 2px solid var(--secondary);
-      color: var(--secondary);
-    }
-
-    .btn-outline-gold:hover {
-      background: var(--secondary);
-      color: var(--primary-dark);
-      transform: translateY(-2px);
-    }
-
-    .btn-ripple {
+    /* Ripple Effect */
+    .ripple {
       position: absolute;
-      background: rgba(255, 255, 255, 0.35);
+      background: rgba(255, 255, 255, 0.4);
       border-radius: 50%;
       transform: scale(0);
-      animation: ripple-effect 0.5s linear;
+      animation: ripple-animation 0.6s linear;
       pointer-events: none;
     }
-
-    @keyframes ripple-effect {
+    @keyframes ripple-animation {
       to {
         transform: scale(4);
         opacity: 0;
       }
     }
 
-    /* STICKY HEADER */
-    header {
-      position: fixed;
+    /* Typing indicators for assistant */
+    .typing-dot {
+      animation: typing-bounce 1.4s infinite;
+    }
+    .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+    .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes typing-bounce {
+      0%, 80%, 100% { transform: translateY(0); }
+      40% { transform: translateY(-6px); }
+    }
+
+    /* Floating particles */
+    #hero-canvas {
+      position: absolute;
       top: 0;
       left: 0;
       width: 100%;
-      z-index: 1000;
-      transition: var(--transition);
-      padding: 20px 0;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
     }
 
-    header.scrolled {
-      background: rgba(11, 61, 46, 0.96);
-      backdrop-filter: blur(12px);
-      padding: 12px 0;
-      box-shadow: var(--shadow-md);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /* Glow overlays */
+    .aurora-glow {
+      background: radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.15) 0%, transparent 60%);
     }
 
-    .header-container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    /* Custom Dialog styling */
+    .modal-enter {
+      opacity: 0;
+      transform: scale(0.95);
     }
-
-    .logo-block {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .logo-title {
-      font-size: 1.35rem;
-      font-weight: 800;
-      color: var(--secondary);
-      letter-spacing: 0.5px;
-      line-height: 1.1;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .logo-subtitle {
-      font-size: 0.65rem;
-      font-weight: 400;
-      color: var(--text-light);
-      opacity: 0.75;
-      letter-spacing: 0.5px;
-    }
-
-    .nav-menu {
-      display: flex;
-      align-items: center;
-      list-style: none;
-      gap: 24px;
-    }
-
-    .nav-link {
-      font-size: 0.85rem;
-      font-weight: 500;
-      color: var(--text-light);
-      opacity: 0.8;
-      position: relative;
-      padding: 4px 0;
-    }
-
-    .nav-link:hover {
-      color: var(--secondary);
+    .modal-enter-active {
       opacity: 1;
-    }
-
-    .nav-link::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 0;
-      height: 2px;
-      background: var(--secondary);
-      transition: var(--transition);
-    }
-
-    .nav-link:hover::after {
-      width: 100%;
-    }
-
-    .header-btn {
-      padding: 8px 20px;
-      font-size: 0.75rem;
-    }
-
-    .mobile-toggle {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      background: none;
-      border: none;
-      cursor: pointer;
-    }
-
-    .mobile-toggle span {
-      width: 24px;
-      height: 2px;
-      background: var(--secondary);
-      border-radius: 1px;
-      transition: var(--transition);
-    }
-
-    /* HERO SECTION */
-    .hero-section {
-      position: relative;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      background-image: linear-gradient(135deg, rgba(11, 61, 46, 0.94) 0%, rgba(6, 36, 27, 0.98) 100%), url('./src/assets/images/hero_bible_prayer_1783469301545.jpg');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      color: var(--text-light);
-      padding-top: 130px;
-      padding-bottom: 70px;
-      overflow: hidden;
-    }
-
-    .hero-section::before {
-      content: '';
-      position: absolute;
-      top: -30%;
-      left: -10%;
-      width: 120%;
-      height: 120%;
-      background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, rgba(255, 255, 255, 0) 60%);
-      pointer-events: none;
-      z-index: 1;
-    }
-
-    .hero-grid {
-      position: relative;
-      z-index: 2;
-      display: grid;
-      grid-template-columns: 1.25fr 0.75fr;
-      gap: 50px;
-      align-items: center;
-    }
-
-    .hero-content {
-      max-width: 650px;
-    }
-
-    .badge-premium {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: rgba(212, 175, 55, 0.12);
-      border: 1px solid rgba(212, 175, 55, 0.25);
-      padding: 6px 14px;
-      border-radius: 50px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--secondary);
-      text-transform: uppercase;
-      letter-spacing: 0.8px;
-      margin-bottom: 20px;
-    }
-
-    .hero-title {
-      font-size: 3.2rem;
-      font-weight: 800;
-      color: var(--text-light);
-      margin-bottom: 18px;
-      line-height: 1.15;
-    }
-
-    .hero-title span {
-      background: linear-gradient(135deg, #ffffff 30%, var(--secondary) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .hero-subtitle {
-      font-size: 1.05rem;
-      color: rgba(255, 255, 255, 0.85);
-      margin-bottom: 30px;
-      line-height: 1.65;
-    }
-
-    .hero-btn-group {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      margin-bottom: 35px;
-    }
-
-    /* 3D EBOOK MOCKUP & GLOW */
-    .hero-mockup-wrapper {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-    }
-
-    .mockup-glow {
-      position: absolute;
-      width: 280px;
-      height: 280px;
-      background: radial-gradient(circle, rgba(212, 175, 55, 0.12) 0%, rgba(255, 255, 255, 0) 70%);
-      pointer-events: none;
-      z-index: 1;
-    }
-
-    .ebook-mockup {
-      width: 100%;
-      max-width: 300px;
-      border-radius: 6px;
-      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.45), 0 0 35px rgba(212, 175, 55, 0.1);
-      transform-style: preserve-3d;
-      perspective: 1000px;
-      animation: floatMockup 4.5s ease-in-out infinite;
-      z-index: 2;
-    }
-
-    @keyframes floatMockup {
-      0%, 100% {
-        transform: translateY(0) rotateY(-4deg) rotateX(4deg);
-      }
-      50% {
-        transform: translateY(-12px) rotateY(-1deg) rotateX(1deg);
-      }
-    }
-
-    /* STATS SECTION */
-    .stats-row {
-      display: flex;
-      gap: 35px;
-      border-top: 1px solid rgba(255, 255, 255, 0.12);
-      padding-top: 20px;
-    }
-
-    .stat-item {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .stat-number {
-      font-size: 2rem;
-      font-weight: 800;
-      color: var(--secondary);
-      line-height: 1.1;
-      margin-bottom: 2px;
-    }
-
-    .stat-label {
-      font-size: 0.7rem;
-      color: rgba(255, 255, 255, 0.7);
-      letter-spacing: 0.4px;
-    }
-
-    /* PROMO TIMER SECTION */
-    .timer-container {
-      background: rgba(11, 61, 46, 0.82);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(212, 175, 55, 0.2);
-      border-radius: var(--radius-lg);
-      padding: 22px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-      box-shadow: var(--shadow-lg);
-      margin-top: -30px;
-      position: relative;
-      z-index: 10;
-    }
-
-    .timer-info {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .timer-info-title {
-      font-size: 0.9rem;
-      font-weight: 700;
-      color: var(--secondary);
-    }
-
-    .timer-info-text {
-      font-size: 0.78rem;
-      color: rgba(255, 255, 255, 0.8);
-    }
-
-    .timer-countdown {
-      display: flex;
-      gap: 10px;
-    }
-
-    .timer-unit {
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(215, 175, 55, 0.15);
-      border-radius: var(--radius);
-      min-width: 50px;
-      padding: 6px;
-      text-align: center;
-    }
-
-    .timer-num {
-      font-size: 1.2rem;
-      font-weight: 800;
-      color: var(--secondary);
-      display: block;
-      line-height: 1;
-    }
-
-    .timer-label {
-      font-size: 0.55rem;
-      text-transform: uppercase;
-      color: #99cbbd;
-      letter-spacing: 0.5px;
-    }
-
-    /* SECTION TITLE STYLING */
-    .section-title-wrapper {
-      max-width: 650px;
-      margin: 0 auto 50px;
-    }
-
-    .section-subtitle {
-      font-size: 0.85rem;
-      color: var(--secondary-dark);
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      font-weight: 600;
-      margin-bottom: 8px;
-      display: block;
-    }
-
-    .section-main-title {
-      font-size: 2.2rem;
-      font-weight: 800;
-      color: var(--primary);
-    }
-
-    /* BENEFITS (6 PREMIUM CARDS) */
-    .benefits-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
-
-    .benefit-card {
-      background: var(--bg-white);
-      border-radius: var(--radius);
-      padding: 35px 25px;
-      box-shadow: var(--shadow-sm);
-      border: 1px solid #f0e9dd;
-      transition: var(--transition);
-      position: relative;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-
-    .benefit-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 4px;
-      background: var(--secondary);
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: var(--transition);
-    }
-
-    .benefit-card:hover {
-      transform: translateY(-6px);
-      box-shadow: var(--shadow-lg);
-      border-color: rgba(212, 175, 55, 0.2);
-    }
-
-    .benefit-card:hover::before {
-      transform: scaleX(1);
-    }
-
-    .benefit-icon-box {
-      width: 50px;
-      height: 50px;
-      background: rgba(11, 61, 46, 0.05);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--primary);
-      transition: var(--transition);
-    }
-
-    .benefit-card:hover .benefit-icon-box {
-      background: var(--primary);
-      color: var(--secondary);
-    }
-
-    .benefit-card-title {
-      font-size: 1.15rem;
-      font-weight: 700;
-      color: var(--primary);
-    }
-
-    .benefit-card-text {
-      font-size: 0.85rem;
-      line-height: 1.55;
-    }
-
-    /* WHAT YOU WILL FIND SECTION */
-    .content-section {
-      background-color: var(--bg-light);
-    }
-
-    .content-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 50px;
-      align-items: center;
-    }
-
-    .content-badge-list {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 14px;
-    }
-
-    .content-badge {
-      background: var(--bg-white);
-      border: 1px solid #e1d8ca;
-      border-radius: var(--radius);
-      padding: 14px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      transition: var(--transition);
-    }
-
-    .content-badge:hover {
-      border-color: var(--secondary);
-      box-shadow: var(--shadow-md);
-      transform: translateX(4px);
-    }
-
-    .content-badge-icon {
-      color: var(--secondary);
-      flex-shrink: 0;
-      display: flex;
-      align-items: center;
-    }
-
-    .content-badge-title {
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--primary);
-    }
-
-    /* INTERACTIVE INSIGHT / PREVIEW BOX */
-    .preview-box {
-      background: var(--bg-white);
-      border-radius: var(--radius-lg);
-      padding: 35px;
-      border: 1px solid rgba(212, 175, 55, 0.25);
-      box-shadow: var(--shadow-lg);
-    }
-
-    .preview-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    .preview-badge {
-      font-size: 0.65rem;
-      background: var(--primary);
-      color: var(--secondary);
-      padding: 4px 10px;
-      border-radius: 50px;
-      text-transform: uppercase;
-      font-weight: 600;
-    }
-
-    .prayer-tab-nav {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 20px;
-      overflow-x: auto;
-      padding-bottom: 5px;
-    }
-
-    .prayer-tab {
-      background: var(--bg-light);
-      border: 1px solid #e1d8ca;
-      padding: 6px 14px;
-      border-radius: 20px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--primary);
-      cursor: pointer;
-      transition: var(--transition);
-      white-space: nowrap;
-    }
-
-    .prayer-tab.active, .prayer-tab:hover {
-      background: var(--primary);
-      color: var(--secondary);
-      border-color: var(--primary);
-    }
-
-    .preview-prayer-content {
-      font-style: italic;
-      color: var(--text-muted);
-      border-left: 3px solid var(--secondary);
-      padding-left: 18px;
-      margin: 18px 0;
-      font-size: 0.92rem;
-      min-height: 100px;
-    }
-
-    .preview-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .preview-author {
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--primary);
-    }
-
-    /* SOBRE O EBOOK */
-    .about-grid {
-      display: grid;
-      grid-template-columns: 1.15fr 0.85fr;
-      gap: 50px;
-      align-items: center;
-    }
-
-    .about-points {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-      margin: 24px 0;
-    }
-
-    .about-point-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-    }
-
-    .about-point-icon {
-      color: var(--secondary);
-      flex-shrink: 0;
-      margin-top: 3px;
-    }
-
-    .about-point-title {
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: var(--primary);
-    }
-
-    .about-point-desc {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-    }
-
-    .about-author-card {
-      background: var(--bg-light);
-      border-radius: var(--radius-lg);
-      padding: 35px;
-      border: 1px solid #ebe4d8;
-      text-align: center;
-    }
-
-    .author-avatar {
-      width: 110px;
-      height: 110px;
-      border-radius: 50%;
-      border: 3px solid var(--secondary);
-      margin: 0 auto 16px;
-      object-fit: cover;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .author-name {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: var(--primary);
-    }
-
-    .author-title {
-      font-size: 0.75rem;
-      color: var(--secondary-dark);
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 12px;
-    }
-
-    .author-bio {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-
-    /* DEPOIMENTOS */
-    .testimonials-section {
-      background-color: var(--bg-light);
-    }
-
-    .testimonials-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
-
-    .testimonial-card {
-      background: var(--bg-white);
-      border-radius: var(--radius);
-      padding: 26px;
-      box-shadow: var(--shadow-sm);
-      border: 1px solid #ece5da;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-      transition: var(--transition);
-    }
-
-    .testimonial-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-md);
-    }
-
-    .testimonial-stars {
-      display: flex;
-      color: var(--secondary);
-      gap: 4px;
-    }
-
-    .testimonial-text {
-      font-size: 0.82rem;
-      color: var(--text-muted);
-      font-style: italic;
-    }
-
-    .testimonial-user {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-top: auto;
-    }
-
-    .testimonial-avatar {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid var(--secondary);
-    }
-
-    .testimonial-username {
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--primary);
-    }
-
-    .testimonial-userinfo {
-      font-size: 0.7rem;
-      color: var(--text-muted);
-    }
-
-    /* PROGRAMA DE AFILIADOS */
-    .affiliates-section {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-      color: var(--text-light);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .affiliates-section::before {
-      content: '';
-      position: absolute;
-      top: -30%;
-      right: -10%;
-      width: 500px;
-      height: 500px;
-      background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, rgba(255, 255, 255, 0) 60%);
-      pointer-events: none;
-    }
-
-    .affiliates-title {
-      font-size: 2.2rem;
-      font-weight: 800;
-      color: var(--text-light);
-      margin-bottom: 10px;
-    }
-
-    .affiliates-subtitle {
-      font-size: 0.95rem;
-      color: rgba(255, 255, 255, 0.8);
-      max-width: 750px;
-      margin: 0 auto 40px;
-      font-weight: 300;
-    }
-
-    .affiliates-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      margin-bottom: 40px;
-    }
-
-    .affiliate-card {
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: var(--radius);
-      padding: 35px 25px;
-      text-align: center;
-      transition: var(--transition);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 14px;
-    }
-
-    .affiliate-card:hover {
-      transform: translateY(-6px);
-      background: rgba(255, 255, 255, 0.07);
-      border-color: var(--secondary);
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
-    }
-
-    .affiliate-icon {
-      width: 46px;
-      height: 46px;
-      background: rgba(212, 175, 55, 0.15);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--secondary);
-    }
-
-    .affiliate-card-title {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: var(--secondary);
-    }
-
-    .affiliate-card-text {
-      font-size: 0.82rem;
-      color: rgba(255, 255, 255, 0.75);
-    }
-
-    /* CONTATO */
-    .contact-section {
-      background-color: var(--bg-light);
-    }
-
-    .contact-grid {
-      display: grid;
-      grid-template-columns: 0.85fr 1.15fr;
-      gap: 50px;
-    }
-
-    .contact-info-panel {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-    }
-
-    .contact-card {
-      background: var(--bg-white);
-      border-radius: var(--radius);
-      padding: 24px;
-      box-shadow: var(--shadow-sm);
-      border: 1px solid #ebe4d8;
-      display: flex;
-      gap: 14px;
-      align-items: flex-start;
-      transition: var(--transition);
-    }
-
-    .contact-card:hover {
-      border-color: var(--secondary);
-    }
-
-    .contact-icon-box {
-      width: 44px;
-      height: 44px;
-      border-radius: var(--radius);
-      background: rgba(11, 61, 46, 0.05);
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-
-    .contact-card-title {
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: var(--primary);
-      margin-bottom: 3px;
-    }
-
-    .contact-card-text {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-      margin-bottom: 10px;
-    }
-
-    .contact-card-btn {
-      padding: 6px 14px;
-      font-size: 0.7rem;
-      text-transform: none;
-    }
-
-    .contact-form {
-      background: var(--bg-white);
-      border-radius: var(--radius-lg);
-      padding: 35px;
-      box-shadow: var(--shadow-lg);
-      border: 1px solid #ebe4d8;
-    }
-
-    .form-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
-      margin-bottom: 16px;
-    }
-
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-    }
-
-    .form-group-full {
-      grid-column: span 2;
-    }
-
-    .form-label {
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--primary);
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    .form-control {
-      padding: 12px 16px;
-      border-radius: var(--radius);
-      border: 1px solid #dfd8cb;
-      font-family: 'Poppins', sans-serif;
-      font-size: 0.85rem;
-      outline: none;
-      transition: var(--transition);
-    }
-
-    .form-control:focus {
-      border-color: var(--primary);
-      box-shadow: 0 0 0 3px rgba(11, 61, 46, 0.08);
-    }
-
-    textarea.form-control {
-      resize: none;
-      height: 100px;
-    }
-
-    /* FAQ ACCORDION */
-    .faq-container {
-      max-width: 750px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-
-    .faq-item {
-      background: var(--bg-light);
-      border: 1px solid #ebe4d8;
-      border-radius: var(--radius);
-      overflow: hidden;
-      transition: var(--transition);
-    }
-
-    .faq-header {
-      padding: 20px 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: pointer;
-      user-select: none;
-    }
-
-    .faq-header:hover {
-      background: rgba(11, 61, 46, 0.02);
-    }
-
-    .faq-question {
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: var(--primary);
-    }
-
-    .faq-icon {
-      color: var(--secondary);
-      transition: var(--transition);
-    }
-
-    .faq-body {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-
-    .faq-content {
-      padding: 0 24px 20px;
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-
-    .faq-item.active .faq-body {
-      max-height: 250px;
-    }
-
-    .faq-item.active .faq-icon {
-      transform: rotate(180deg);
-    }
-
-    .faq-item.active {
-      border-color: var(--secondary);
-      box-shadow: var(--shadow-md);
-    }
-
-    /* FOOTER */
-    footer {
-      background: #052017;
-      color: rgba(255, 255, 255, 0.7);
-      padding: 70px 0 30px;
-      border-top: 1px solid rgba(255, 255, 255, 0.06);
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 1.25fr 0.75fr 0.75fr 1.25fr;
-      gap: 35px;
-      margin-bottom: 50px;
-    }
-
-    .footer-brand {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-
-    .footer-desc {
-      font-size: 0.78rem;
-      line-height: 1.6;
-    }
-
-    .footer-title {
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: var(--secondary);
-      margin-bottom: 16px;
-    }
-
-    .footer-links {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .footer-link-item a {
-      font-size: 0.78rem;
-      transition: var(--transition);
-    }
-
-    .footer-link-item a:hover {
-      color: var(--secondary);
-      padding-left: 4px;
-    }
-
-    .footer-socials {
-      display: flex;
-      gap: 10px;
-    }
-
-    .social-btn {
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--text-light);
-      transition: var(--transition);
-    }
-
-    .social-btn:hover {
-      background: var(--secondary);
-      color: var(--primary-dark);
-      transform: translateY(-2px);
-    }
-
-    .footer-bottom {
-      border-top: 1px solid rgba(255, 255, 255, 0.05);
-      padding-top: 25px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-
-    .footer-copy {
-      font-size: 0.75rem;
-      color: rgba(255, 255, 255, 0.45);
-    }
-
-    .footer-policy {
-      display: flex;
-      gap: 16px;
-      font-size: 0.75rem;
-    }
-
-    .footer-policy a:hover {
-      color: var(--secondary);
-    }
-
-    /* BACK TO TOP BUTTON */
-    .back-to-top {
-      position: fixed;
-      bottom: 25px;
-      right: -60px;
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      background: var(--secondary);
-      color: var(--primary-dark);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: var(--shadow-lg);
-      cursor: pointer;
-      transition: var(--transition);
-      z-index: 999;
-    }
-
-    .back-to-top.visible {
-      right: 25px;
-    }
-
-    .back-to-top:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 18px rgba(212, 175, 55, 0.35);
-    }
-
-    /* LIVE RECENT PURCHASES TOAST */
-    .social-proof-toast {
-      position: fixed;
-      bottom: 25px;
-      left: -400px;
-      background: var(--bg-white);
-      border-left: 4px solid var(--secondary);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow-lg);
-      padding: 14px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      transition: var(--transition);
-      z-index: 1000;
-      max-width: 300px;
-    }
-
-    .social-proof-toast.visible {
-      left: 25px;
-    }
-
-    .toast-icon {
-      width: 36px;
-      height: 36px;
-      background: rgba(11, 61, 46, 0.05);
-      color: var(--primary);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1rem;
-      flex-shrink: 0;
-    }
-
-    .toast-content {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .toast-title {
-      font-size: 0.75rem;
-      font-weight: 700;
-      color: var(--primary);
-    }
-
-    .toast-subtitle {
-      font-size: 0.7rem;
-      color: var(--text-muted);
-    }
-
-    /* RESPONSIVE BREAKPOINTS (MOBILE FIRST) */
-    @media (max-width: 1024px) {
-      .hero-grid {
-        grid-template-columns: 1fr;
-        gap: 35px;
-        text-align: center;
-      }
-      .hero-content {
-        max-width: 100%;
-        margin: 0 auto;
-      }
-      .hero-btn-group {
-        justify-content: center;
-      }
-      .stats-row {
-        justify-content: center;
-      }
-      .benefits-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      .content-grid {
-        grid-template-columns: 1fr;
-        gap: 35px;
-      }
-      .about-grid {
-        grid-template-columns: 1fr;
-        gap: 35px;
-      }
-      .testimonials-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      .affiliates-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      .footer-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
-    @media (max-width: 768px) {
-      .nav-menu {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        width: 80%;
-        max-width: 280px;
-        height: 100vh;
-        background: var(--primary-dark);
-        flex-direction: column;
-        justify-content: center;
-        gap: 26px;
-        padding: 40px;
-        transition: var(--transition);
-        box-shadow: -10px 0 30px rgba(0,0,0,0.25);
-      }
-
-      .nav-menu.active {
-        right: 0;
-      }
-
-      .mobile-toggle {
-        display: flex;
-      }
-
-      .mobile-toggle.active span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-      }
-
-      .mobile-toggle.active span:nth-child(2) {
-        opacity: 0;
-      }
-
-      .mobile-toggle.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -5px);
-      }
-
-      .hero-title {
-        font-size: 2.1rem;
-      }
-
-      .hero-subtitle {
-        font-size: 0.9rem;
-      }
-
-      .section-main-title {
-        font-size: 1.7rem;
-      }
-
-      .timer-container {
-        flex-direction: column;
-        text-align: center;
-        margin-top: -15px;
-      }
-
-      .benefits-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .content-badge-list {
-        grid-template-columns: 1fr;
-      }
-
-      .testimonials-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .affiliates-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .contact-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-      }
-
-      .form-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .form-group-full {
-        grid-column: span 1;
-      }
-
-      .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 24px;
-      }
+      transform: scale(1);
+      transition: opacity 0.3s ease-out, transform 0.3s ease-out;
     }
   </style>
-</head>
-<body>
 
-  <!-- HEADER -->
-  <header id="header">
-    <div class="container header-container">
-      <a href="#inicio" class="logo-block">
-        <span class="logo-title">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><path d="M11 2h2v7h5v2h-5v11h-2v-11H6V9h5V2z"/></svg>
-          Vox Divina
+  <!-- Schema.org Rich Snippets for Book Product -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "200 Orações Poderosas para Todas as Situações",
+    "author": {
+      "@type": "Organization",
+      "name": "Vox Divina"
+    },
+    "image": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&q=80&w=600",
+    "description": "Um e-book cristão premium contendo 200 orações selecionadas e organizadas tematicamente para edificar sua fé, conceder paz e orientar suas decisões diárias.",
+    "offers": {
+      "@type": "Offer",
+      "price": "12.99",
+      "priceCurrency": "BRL",
+      "availability": "https://schema.org/InStock",
+      "url": "https://pay.kiwify.com.br/749ZSIM"
+    }
+  }
+  </script>
+</head>
+<body class="bg-navy-dark text-white font-sans antialiased overflow-x-hidden relative">
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="relative flex flex-col items-center">
+      <div class="w-16 h-16 border-4 border-gold-dark border-t-gold rounded-full animate-spin"></div>
+      <p class="mt-6 text-gold font-serif text-2xl tracking-widest animate-pulse">VOX DIVINA</p>
+      <p class="text-xs text-gray-400 mt-2 font-mono">Carregando experiência premium...</p>
+    </div>
+  </div>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="custom-cursor hidden md:block" id="cursor"></div>
+  <div class="custom-cursor-dot hidden md:block" id="cursor-dot"></div>
+
+  <!-- NAVBAR -->
+  <header id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-5 px-4 md:px-8 border-b border-transparent bg-transparent">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#inicio" class="flex items-center gap-2 group">
+        <span class="font-serif text-2xl md:text-3xl font-bold tracking-widest text-white group-hover:text-gold transition-colors duration-300">
+          VOX <span class="text-gold">DIVINA</span>
         </span>
-        <span class="logo-subtitle">Autora Laís Fagundes</span>
       </a>
 
-      <nav>
-        <ul class="nav-menu" id="navMenu">
-          <li><a href="#inicio" class="nav-link">Início</a></li>
-          <li><a href="#sobre" class="nav-link">Sobre</a></li>
-          <li><a href="#beneficios" class="nav-link">Benefícios</a></li>
-          <li><a href="#conteudo" class="nav-link">Conteúdo</a></li>
-          <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
-          <li><a href="#afiliados" class="nav-link">Afiliados</a></li>
-          <li><a href="#contato" class="nav-link">Contato</a></li>
-        </ul>
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden lg:flex items-center gap-8 font-medium text-sm tracking-wider uppercase text-gray-300">
+        <a href="#inicio" class="hover:text-gold transition-colors">Início</a>
+        <a href="#sobre" class="hover:text-gold transition-colors">Sobre</a>
+        <a href="#conteudo" class="hover:text-gold transition-colors">Conteúdo</a>
+        <a href="#beneficios" class="hover:text-gold transition-colors">Benefícios</a>
+        <a href="#bonus" class="hover:text-gold transition-colors">Bônus</a>
+        <a href="#depoimentos" class="hover:text-gold transition-colors">Depoimentos</a>
+        <a href="#faq" class="hover:text-gold transition-colors">Perguntas</a>
+        <a href="#contato" class="hover:text-gold transition-colors">Contato</a>
       </nav>
 
-      <div style="display: flex; align-items: center; gap: 14px;">
-        <a href="#comprar" class="btn btn-gold header-btn">Comprar Agora</a>
-        <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu">
-          <span></span>
-          <span></span>
-          <span></span>
+      <!-- CTA Button Navbar -->
+      <div class="flex items-center gap-4">
+        <a href="https://pay.kiwify.com.br/749ZSIM" target="_blank" rel="noopener noreferrer" class="btn-ripple hidden sm:inline-flex items-center justify-center px-6 py-2.5 bg-gold hover:bg-gold-dark text-navy font-bold rounded-full transition-all duration-300 text-sm shadow-lg shadow-gold/20 uppercase tracking-wider">
+          Comprar Agora
+        </a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" class="lg:hidden text-white hover:text-gold focus:outline-none transition-colors" aria-label="Menu principal">
+          <i data-lucide="menu" class="w-6 h-6"></i>
         </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-72 bg-navy-dark border-l border-gold/20 shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out p-6 flex flex-col justify-between lg:hidden">
+      <div>
+        <div class="flex items-center justify-between pb-6 border-b border-gray-800">
+          <span class="font-serif text-xl font-bold tracking-widest text-white">VOX <span class="text-gold">DIVINA</span></span>
+          <button id="mobile-menu-close" class="text-gray-400 hover:text-gold">
+            <i data-lucide="x" class="w-6 h-6"></i>
+          </button>
+        </div>
+        <nav class="flex flex-col gap-5 mt-8 font-medium text-md uppercase tracking-wider text-gray-300">
+          <a href="#inicio" class="mobile-nav-link hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="home" class="w-4 h-4"></i> Início</a>
+          <a href="#sobre" class="mobile-nav-link hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="info" class="w-4 h-4"></i> Sobre</a>
+          <a href="#conteudo" class="mobile-nav-link hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="book-open" class="w-4 h-4"></i> Conteúdo</a>
+          <a href="#beneficios" class="mobile-nav-link hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="sparkles" class="w-4 h-4"></i> Benefícios</a>
+          <a href="#bonus" class="mobile-nav-link hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="gift" class="w-4 h-4"></i> Bônus</a>
+          <a href="#depoimentos" class="mobile-nav-link hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="message-square" class="w-4 h-4"></i> Depoimentos</a>
+          <a href="#faq" class="mobile-nav-link hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="help-circle" class="w-4 h-4"></i> Perguntas</a>
+          <a href="#contato" class="mobile-nav-link hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i> Contato</a>
+        </nav>
+      </div>
+      <div class="pt-6 border-t border-gray-800">
+        <a href="https://pay.kiwify.com.br/749ZSIM" target="_blank" rel="noopener noreferrer" class="btn-ripple w-full py-3 bg-gold hover:bg-gold-dark text-navy text-center font-bold rounded-full transition-all duration-300 text-sm shadow-lg shadow-gold/20 uppercase tracking-widest block">
+          🛒 Comprar Agora
+        </a>
       </div>
     </div>
   </header>
 
   <!-- HERO SECTION -->
-  <section class="hero-section" id="inicio">
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <span class="badge-premium">
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          Lançamento Oficial Exclusivo
-        </span>
-        <h1 class="hero-title">Transforme Sua Vida Através da <span>Oração</span></h1>
-        <p class="hero-subtitle">Descubra 200 Orações Poderosas para fortalecer sua fé, encontrar paz de espírito, proteção contra o mal e viver mais próximo de Deus todos os dias.</p>
+  <section id="inicio" class="relative min-h-screen flex items-center justify-center pt-28 pb-16 overflow-hidden">
+    <!-- Parallax background with overlay -->
+    <div class="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transform scale-105 transition-transform duration-1000" style="background-image: linear-gradient(to bottom, rgba(9,9,9,0.85) 0%, rgba(9,9,9,0.95) 100%), url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=1920');"></div>
+    
+    <!-- Gold Particles Canvas -->
+    <canvas id="hero-canvas"></canvas>
+
+    <!-- Content -->
+    <div class="relative z-10 max-w-5xl mx-auto px-4 md:px-8 text-center flex flex-col items-center">
+      
+      <!-- Premium Rating Star Badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-2 bg-navy/60 backdrop-blur-md border border-gold/30 rounded-full mb-6 transform hover:scale-105 transition-transform duration-300">
+        <div class="flex text-gold">
+          <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+        </div>
+        <span class="text-xs md:text-sm font-semibold text-gold tracking-widest uppercase">Mais de 200 Orações Selecionadas</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6 leading-tight max-w-4xl text-gold-gradient">
+        Fortaleça sua Fé Todos os Dias com 200 Orações Poderosas
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed font-light">
+        Transforme sua vida espiritual através de orações organizadas tematicamente para todas as situações da sua jornada.
+      </p>
+
+      <!-- Action CTAs -->
+      <div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto mb-16">
+        <a href="https://pay.kiwify.com.br/749ZSIM" target="_blank" rel="noopener noreferrer" class="btn-ripple w-full sm:w-auto flex items-center justify-center gap-2 px-10 py-5 bg-gold hover:bg-gold-dark text-navy font-bold rounded-full transition-all duration-300 text-lg shadow-xl shadow-gold/35 hover:-translate-y-1">
+          <span>🛒 Comprar Agora</span>
+        </a>
+        <a href="https://youtube.com/@voxdivina-96?si=Y1RGcEYRqRzxDdoV" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto flex items-center justify-center gap-2 px-10 py-5 border-2 border-white/20 hover:border-gold hover:bg-gold/10 text-white hover:text-gold font-semibold rounded-full transition-all duration-300 text-lg hover:-translate-y-1">
+          <i data-lucide="youtube" class="w-5 h-5"></i>
+          <span>▶ Conhecer o Canal</span>
+        </a>
+      </div>
+
+      <!-- Hero Trust Badge Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-4xl border-t border-white/10 pt-10">
+        <div class="flex flex-col items-center p-4 bg-navy-light/40 backdrop-blur-md rounded-2xl border border-white/5 hover:border-gold/20 transition-all duration-300">
+          <div class="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold mb-3">
+            <i data-lucide="shield-check" class="w-6 h-6"></i>
+          </div>
+          <span class="text-xs font-mono tracking-widest text-gray-400 uppercase">Compra Segura</span>
+          <span class="text-sm font-semibold text-white mt-1">100% Protegido</span>
+        </div>
+        <div class="flex flex-col items-center p-4 bg-navy-light/40 backdrop-blur-md rounded-2xl border border-white/5 hover:border-gold/20 transition-all duration-300">
+          <div class="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold mb-3">
+            <i data-lucide="download-cloud" class="w-6 h-6"></i>
+          </div>
+          <span class="text-xs font-mono tracking-widest text-gray-400 uppercase">Acesso</span>
+          <span class="text-sm font-semibold text-white mt-1">Entrega Imediata</span>
+        </div>
+        <div class="flex flex-col items-center p-4 bg-navy-light/40 backdrop-blur-md rounded-2xl border border-white/5 hover:border-gold/20 transition-all duration-300">
+          <div class="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold mb-3">
+            <i data-lucide="book-open" class="w-6 h-6"></i>
+          </div>
+          <span class="text-xs font-mono tracking-widest text-gray-400 uppercase">Conteúdo</span>
+          <span class="text-sm font-semibold text-white mt-1">Mais de 200 Orações</span>
+        </div>
+        <div class="flex flex-col items-center p-4 bg-navy-light/40 backdrop-blur-md rounded-2xl border border-white/5 hover:border-gold/20 transition-all duration-300">
+          <div class="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold mb-3">
+            <i data-lucide="file-text" class="w-6 h-6"></i>
+          </div>
+          <span class="text-xs font-mono tracking-widest text-gray-400 uppercase">Formato</span>
+          <span class="text-sm font-semibold text-white mt-1">E-Book PDF</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Waves Divider curve -->
+    <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-10">
+      <svg class="relative block w-full h-[60px]" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,8.75,55.05,16.29,84.4,22.18,155,36.26,228.62,45.48,321.39,56.44Z" class="fill-navy-dark"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="sobre" class="py-24 relative overflow-hidden bg-navy-dark">
+    <div class="aurora-glow absolute top-10 left-10 w-96 h-96 rounded-full pointer-events-none opacity-40"></div>
+    <div class="max-w-7xl mx-auto px-4 md:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
-        <div class="hero-btn-group">
-          <a href="#comprar" class="btn btn-gold">Comprar Agora</a>
-          <a href="#conteudo" class="btn btn-outline-gold">Conheça o Conteúdo</a>
+        <!-- Interactive Left Side: Styled Image Frame -->
+        <div class="lg:col-span-5 relative flex justify-center group">
+          <div class="absolute -inset-1.5 bg-gradient-to-r from-gold to-yellow-500 rounded-3xl blur-md opacity-25 group-hover:opacity-50 transition duration-500"></div>
+          <div class="relative bg-navy-light p-3 rounded-3xl border border-white/10 max-w-sm sm:max-w-md shadow-2xl">
+            <img class="rounded-2xl shadow-xl w-full h-auto object-cover max-h-[480px]" src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&q=80&w=600" alt="Bíblia Sagrada e Fé" loading="lazy">
+            <!-- Overlay Info -->
+            <div class="absolute bottom-6 left-6 right-6 p-4 bg-navy-dark/95 border border-gold/30 rounded-2xl backdrop-blur-md">
+              <p class="font-serif italic text-gold text-center text-sm">"Clame a mim e eu responderei e lhe direi coisas grandiosas e insondáveis."</p>
+              <p class="text-right text-xs text-gray-400 mt-2 font-mono">— Jeremias 33:3</p>
+            </div>
+          </div>
         </div>
 
-        <div class="stats-row">
-          <div class="stat-item">
-            <span class="stat-number" data-target="200">0</span>
-            <span class="stat-label">Orações Escritas</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-number" data-target="15">0</span>
-            <span class="stat-label">Categorias Espirituais</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-number" data-target="10000">0</span>
-            <span class="stat-label">Leitores Atendidos</span>
+        <!-- Right Side: Content -->
+        <div class="lg:col-span-7 flex flex-col justify-center">
+          <span class="text-gold font-semibold uppercase tracking-widest text-sm font-mono mb-2 block">QUEM SOMOS</span>
+          <h2 class="font-serif text-3xl md:text-5xl font-bold tracking-tight mb-6 leading-tight">
+            O Projeto Vox Divina
+          </h2>
+          <p class="text-gray-300 text-lg leading-relaxed mb-6">
+            O <strong class="text-gold">Vox Divina</strong> é um ministério e projeto cristão dedicado inteiramente a fortalecer a fé e apoiar a vida devocional dos fiéis. Através de orações diárias, partilha de mensagens bíblicas e reflexões profundas sobre a Palavra de Deus, nosso compromisso é ser um farol de esperança e espiritualidade no mundo moderno.
+          </p>
+          <p class="text-gray-300 text-lg leading-relaxed mb-8">
+            Compreendemos que a oração é a ponte essencial que nos conecta ao Criador. Por isso, compilamos este precioso e-book de forma extremamente organizada e inspiradora, para que você tenha em suas mãos o clamor perfeito para cada momento e circunstância de sua vida.
+          </p>
+          
+          <!-- Key Points / Statistics -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t border-white/10">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-gold/10 rounded-xl flex items-center justify-center text-gold shrink-0">
+                <i data-lucide="users" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <h4 class="text-white font-bold text-lg">Comunidade Viva</h4>
+                <p class="text-gray-400 text-sm">Milhares de pessoas unidas em propósito de oração diária.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-gold/10 rounded-xl flex items-center justify-center text-gold shrink-0">
+                <i data-lucide="book-open" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <h4 class="text-white font-bold text-lg">Fácil e Prático</h4>
+                <p class="text-gray-400 text-sm">Design otimizado para que você encontre a oração ideal instantaneamente.</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="hero-mockup-wrapper">
-        <div class="mockup-glow"></div>
-        <img src="./src/assets/images/ebook_mockup_1783469287756.jpg" alt="eBook 200 Orações Poderosas" class="ebook-mockup" referrerPolicy="no-referrer">
-      </div>
-    </div>
-  </section>
-
-  <!-- TIMER PROMOCIONAL -->
-  <section style="background: var(--bg-white); padding-bottom: 40px;">
-    <div class="container">
-      <div class="timer-container">
-        <div class="timer-info">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          <div>
-            <h4 class="timer-info-title">OFERTA DE LANÇAMENTO EXPIRA EM BREVE</h4>
-            <p class="timer-info-text">Adquira o eBook hoje com 50% de desconto e garanta seus bônus exclusivos.</p>
-          </div>
-        </div>
-        <div class="timer-countdown" id="promoTimer">
-          <div class="timer-unit">
-            <span class="timer-num" id="hours">23</span>
-            <span class="timer-label">Horas</span>
-          </div>
-          <div class="timer-unit">
-            <span class="timer-num" id="minutes">59</span>
-            <span class="timer-label">Min</span>
-          </div>
-          <div class="timer-unit">
-            <span class="timer-num" id="seconds">59</span>
-            <span class="timer-label">Seg</span>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- BENEFÍCIOS -->
-  <section class="section-padding reveal" id="beneficios">
-    <div class="container">
-      <div class="section-title-wrapper text-center">
-        <span class="section-subtitle">Por que orar diariamente?</span>
-        <h2 class="section-main-title">Encontre Amparo e Direção para Todas as Horas</h2>
-      </div>
+  <!-- THE INTERACTIVE QUIZ SECTION -->
+  <section class="py-12 bg-navy-light/40 border-y border-white/5 relative">
+    <div class="max-w-4xl mx-auto px-4 md:px-8 text-center relative z-10">
+      <div class="bg-navy p-8 md:p-12 rounded-3xl border border-gold/20 shadow-xl relative overflow-hidden">
+        <div class="absolute -top-10 -right-10 w-40 h-40 bg-gold/5 rounded-full pointer-events-none"></div>
+        <span class="text-gold uppercase font-mono tracking-wider text-xs block mb-3">Quiz Cristão</span>
+        <h3 class="font-serif text-2xl md:text-3xl font-bold text-white mb-6">Como está a sua vida espiritual hoje?</h3>
+        
+        <!-- Quiz State 1 -->
+        <div id="quiz-question" class="transition-all duration-300">
+          <p class="text-gray-300 mb-8 max-w-xl mx-auto">Você costuma orar todos os dias para colocar suas preocupações diante do Senhor?</p>
+          <div class="flex flex-wrap justify-center gap-4">
+            <button onclick="handleQuizAnswer(true)" class="btn-ripple px-8 py-3 bg-gold hover:bg-gold-dark text-navy font-bold rounded-full transition-all duration-300 hover:-translate-y-0.5 shadow-lg shadow-gold/10">
+              Sim, orar é meu escudo! 🙏
+            </button>
+            <button onclick="handleQuizAnswer(false)" class="btn-ripple px-8 py-3 bg-navy-light hover:bg-navy-light/80 border border-white/20 text-white font-semibold rounded-full transition-all duration-300 hover:-translate-y-0.5">
+              Ainda não, mas quero muito ❤️
+            </button>
+          </div>
+        </div>
 
-      <div class="benefits-grid">
+        <!-- Quiz State 2 (Success) -->
+        <div id="quiz-result" class="hidden transition-all duration-300">
+          <div class="w-16 h-16 bg-gold/10 text-gold rounded-full flex items-center justify-center mx-auto mb-4 animate-bounce">
+            <i data-lucide="sparkles" class="w-8 h-8"></i>
+          </div>
+          <h4 id="quiz-result-title" class="font-serif text-xl font-bold text-gold mb-2">Que benção!</h4>
+          <p id="quiz-result-text" class="text-gray-300 max-w-lg mx-auto mb-6">Ficamos imensamente felizes com isso. Continue firme na presença de Deus.</p>
+          <p class="text-sm text-gold/80 font-mono tracking-widest uppercase">Para edificar ainda mais seu clamor: conheça nosso e-book.</p>
+          <a href="#conteudo" class="inline-flex items-center gap-1 mt-4 text-white hover:text-gold underline transition-colors text-sm font-semibold">
+            <span>Ver temas das orações</span>
+            <i data-lucide="arrow-down" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU WILL FIND SECTION -->
+  <section id="conteudo" class="py-24 relative overflow-hidden bg-navy-dark">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 relative z-10 text-center">
+      
+      <span class="text-gold font-semibold uppercase tracking-widest text-sm font-mono mb-2 block">CONTEÚDO INCRÍVEL</span>
+      <h2 class="font-serif text-3xl md:text-5xl font-bold tracking-tight mb-4 max-w-3xl mx-auto">
+        Oração Certa para Todos os Momentos
+      </h2>
+      <p class="text-gray-300 text-lg max-w-2xl mx-auto mb-16 font-light">
+        O e-book reúne <strong class="text-gold">200 orações divididas estrategicamente</strong> em categorias essenciais da jornada cristã. Veja abaixo alguns dos temas abordados:
+      </p>
+
+      <!-- Category Cards Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+        
         <!-- Card 1 -->
-        <div class="benefit-card">
-          <div class="benefit-icon-box">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <div class="gold-glow bg-navy-light/40 border border-white/5 hover:border-gold/30 rounded-2xl p-6 text-center flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="activity" class="w-7 h-7"></i>
           </div>
-          <h3 class="benefit-card-title">Orações para Proteção</h3>
-          <p class="benefit-card-text">Clame pelo escudo divino contra todo mal, inveja e ciladas. Envolva você e sua família sob a proteção divina constante.</p>
+          <h3 class="font-serif text-lg font-bold text-white mb-2">Cura</h3>
+          <p class="text-gray-400 text-sm">Clamores por restabelecimento físico, emocional e espiritual de enfermidades.</p>
         </div>
 
         <!-- Card 2 -->
-        <div class="benefit-card">
-          <div class="benefit-icon-box">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <div class="gold-glow bg-navy-light/40 border border-white/5 hover:border-gold/30 rounded-2xl p-6 text-center flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="shield" class="w-7 h-7"></i>
           </div>
-          <h3 class="benefit-card-title">Orações para Cura</h3>
-          <p class="benefit-card-text">Interceda pela restauração física, espiritual e emocional. Confie no amor e na cura do Pai Eterno.</p>
+          <h3 class="font-serif text-lg font-bold text-white mb-2">Proteção</h3>
+          <p class="text-gray-400 text-sm">Orações para blindar sua casa, sua família e afastar ciladas do inimigo.</p>
         </div>
 
         <!-- Card 3 -->
-        <div class="benefit-card">
-          <div class="benefit-icon-box">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <div class="gold-glow bg-navy-light/40 border border-white/5 hover:border-gold/30 rounded-2xl p-6 text-center flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="coins" class="w-7 h-7"></i>
           </div>
-          <h3 class="benefit-card-title">Orações para Prosperidade</h3>
-          <p class="benefit-card-text">Clame pela abertura de caminhos profissionais, sabedoria financeira e uma vida sob as provisões de Deus.</p>
+          <h3 class="font-serif text-lg font-bold text-white mb-2">Prosperidade</h3>
+          <p class="text-gray-400 text-sm">Súplicas por provisão financeira, portas abertas e sucesso profissional.</p>
         </div>
 
         <!-- Card 4 -->
-        <div class="benefit-card">
-          <div class="benefit-icon-box">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        <div class="gold-glow bg-navy-light/40 border border-white/5 hover:border-gold/30 rounded-2xl p-6 text-center flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="heart" class="w-7 h-7"></i>
           </div>
-          <h3 class="benefit-card-title">Orações para Ansiedade</h3>
-          <p class="benefit-card-text">Acalme seu coração em momentos de angústia. Encontre o descanso e a tranquilidade que somente a fé pode prover.</p>
+          <h3 class="font-serif text-lg font-bold text-white mb-2">Família</h3>
+          <p class="text-gray-400 text-sm">Intercessões por casamentos restaurados, união e sabedoria dos pais.</p>
         </div>
 
         <!-- Card 5 -->
-        <div class="benefit-card">
-          <div class="benefit-icon-box">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <div class="gold-glow bg-navy-light/40 border border-white/5 hover:border-gold/30 rounded-2xl p-6 text-center flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="brain" class="w-7 h-7"></i>
           </div>
-          <h3 class="benefit-card-title">Orações para Família</h3>
-          <p class="benefit-card-text">Abençoe seu lar, seu casamento e seus filhos através da consagração diária na presença sagrada de Deus.</p>
+          <h3 class="font-serif text-lg font-bold text-white mb-2">Ansiedade</h3>
+          <p class="text-gray-400 text-sm">Mensagens calmantes de oração contra estresse, medos e aflições da mente.</p>
         </div>
 
         <!-- Card 6 -->
-        <div class="benefit-card">
-          <div class="benefit-icon-box">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        <div class="gold-glow bg-navy-light/40 border border-white/5 hover:border-gold/30 rounded-2xl p-6 text-center flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="sun" class="w-7 h-7"></i>
           </div>
-          <h3 class="benefit-card-title">Orações de Gratidão</h3>
-          <p class="benefit-card-text">Celebre o amor divino, agradeça pelas vitórias e mantenha seu coração sintonizado com as bênçãos celestiais.</p>
+          <h3 class="font-serif text-lg font-bold text-white mb-2">Gratidão</h3>
+          <p class="text-gray-400 text-sm">Adoração e agradecimento ao Senhor pelas bênçãos recebidas diariamente.</p>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- O QUE VOCÊ VAI ENCONTRAR (CONTEÚDO) -->
-  <section class="section-padding content-section reveal" id="conteudo">
-    <div class="container">
-      <div class="content-grid">
+        <!-- Card 7 -->
+        <div class="gold-glow bg-navy-light/40 border border-white/5 hover:border-gold/30 rounded-2xl p-6 text-center flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="key-round" class="w-7 h-7"></i>
+          </div>
+          <h3 class="font-serif text-lg font-bold text-white mb-2">Libertação</h3>
+          <p class="text-gray-400 text-sm">Clamores por quebra de correntes, vícios e fortalecimento contra opressão.</p>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="gold-glow bg-navy-light/40 border border-white/5 hover:border-gold/30 rounded-2xl p-6 text-center flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="leaf" class="w-7 h-7"></i>
+          </div>
+          <h3 class="font-serif text-lg font-bold text-white mb-2">Paz Interior</h3>
+          <p class="text-gray-400 text-sm">Orações dedicadas ao descanso d'alma e o silêncio santo nas provações.</p>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="gold-glow bg-navy-light/40 border border-white/5 hover:border-gold/30 rounded-2xl p-6 text-center flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="gem" class="w-7 h-7"></i>
+          </div>
+          <h3 class="font-serif text-lg font-bold text-white mb-2">Sabedoria</h3>
+          <p class="text-gray-400 text-sm">Busca por clareza mental, discernimento e decisões alinhadas à Palavra.</p>
+        </div>
+
+        <!-- Card 10 -->
+        <div class="gold-glow bg-navy-light/40 border border-white/5 hover:border-gold/30 rounded-2xl p-6 text-center flex flex-col items-center">
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="flame" class="w-7 h-7"></i>
+          </div>
+          <h3 class="font-serif text-lg font-bold text-white mb-2">Fé</h3>
+          <p class="text-gray-400 text-sm">Fortalecimento e perseverança nos caminhos do Senhor em tempos difíceis.</p>
+        </div>
+
+      </div>
+
+      <!-- Book Image Representation / Highlight -->
+      <div class="mt-16 p-8 bg-gradient-to-r from-navy-light/60 to-navy-dark border border-white/10 rounded-3xl max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 text-left">
+        <div class="shrink-0 flex items-center justify-center w-24 h-24 bg-gold/20 text-gold rounded-2xl">
+          <i data-lucide="book-open-check" class="w-12 h-12"></i>
+        </div>
         <div>
-          <span class="section-subtitle">O que está incluído no eBook?</span>
-          <h2 class="section-main-title" style="margin-bottom: 20px;">Uma Jornada Completa de Fortalecimento</h2>
-          <p style="margin-bottom: 25px;">Esta obra foi carinhosamente estruturada para ser um verdadeiro refúgio diário. Nele, você encontrará as palavras exatas para confortar seu espírito nos momentos de maior necessidade.</p>
-          
-          <div class="content-badge-list">
-            <div class="content-badge">
-              <span class="content-badge-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-              </span>
-              <span class="content-badge-title">200 Orações Prontas</span>
-            </div>
-            <div class="content-badge">
-              <span class="content-badge-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><circle cx="12" cy="12" r="10"/><path d="M12 8l-4 4h8z"/></svg>
-              </span>
-              <span class="content-badge-title">Versículos Bíblicos</span>
-            </div>
-            <div class="content-badge">
-              <span class="content-badge-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-              </span>
-              <span class="content-badge-title">Reflexões Diárias</span>
-            </div>
-            <div class="content-badge">
-              <span class="content-badge-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              </span>
-              <span class="content-badge-title">Guia Devocional</span>
-            </div>
-            <div class="content-badge">
-              <span class="content-badge-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              </span>
-              <span class="content-badge-title">Fortalecimento Espiritual</span>
-            </div>
-            <div class="content-badge">
-              <span class="content-badge-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-              </span>
-              <span class="content-badge-title">Paz de Espírito</span>
-            </div>
-            <div class="content-badge">
-              <span class="content-badge-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-              </span>
-              <span class="content-badge-title">Esperança Renovada</span>
-            </div>
-            <div class="content-badge">
-              <span class="content-badge-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-              </span>
-              <span class="content-badge-title">Estilo de Vida Cristão</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- INTERACTIVE INSIGHT / PREVIEW BOX -->
-        <div class="preview-box">
-          <div class="preview-header">
-            <h3 class="logo-title" style="font-size: 1.15rem; color: var(--primary);">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><path d="M11 2h2v7h5v2h-5v11h-2v-11H6V9h5V2z"/></svg>
-              Trechos das Orações
-            </h3>
-            <span class="preview-badge">Exclusivo</span>
-          </div>
-
-          <div class="prayer-tab-nav">
-            <span class="prayer-tab active" onclick="switchPrayerTab(this, 'protecao')">Proteção</span>
-            <span class="prayer-tab" onclick="switchPrayerTab(this, 'cura')">Cura & Saúde</span>
-            <span class="prayer-tab" onclick="switchPrayerTab(this, 'paz')">Paz & Ansiedade</span>
-          </div>
-
-          <p class="preview-prayer-content" id="prayerText">
-            "Senhor, que a Tua mão de proteção cubra minha vida, meu lar e meus entes queridos hoje e sempre. Livra-nos de todo o mal invisível e guarda nossas entradas e saídas debaixo do Teu escudo glorioso. Amém."
-          </p>
-
-          <div class="preview-footer">
-            <span class="preview-author">Laís Fagundes</span>
-            <span style="font-size: 0.72rem; color: var(--secondary-dark); font-weight: 500;" id="prayerCap">Capítulo 1: Proteção Divina</span>
-          </div>
+          <h3 class="font-serif text-xl font-bold text-gold mb-2">Tudo isso e muito mais reunido em um único arquivo PDF premium</h3>
+          <p class="text-gray-300 text-sm">Cada oração foi escrita com linguagem reverente, embasamento nas Escrituras e projetada para tocar os céus e acalmar sua mente. Leitura acessível e rápida para todos os perfis.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SOBRE O EBOOK -->
-  <section class="section-padding reveal" id="sobre">
-    <div class="container about-grid">
-      <div>
-        <span class="section-subtitle">Sobre a Obra</span>
-        <h2 class="section-main-title" style="margin-bottom: 18px;">Palavras Simples, Profundas e Organizadoras de Fé</h2>
-        <p style="margin-bottom: 24px;">Este devocional em formato digital foi planejado especificamente para pessoas que enfrentam a correria do dia a dia e anseiam por uma rotina espiritual consistente e fortalecida com Deus. Escrito com linguagem amorosa e acolhedora, ele facilitará sua conexão diária.</p>
+  <!-- BENEFITS SECTION -->
+  <section id="beneficios" class="py-24 relative overflow-hidden bg-navy-light/30">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 relative z-10">
+      
+      <div class="text-center mb-16">
+        <span class="text-gold font-semibold uppercase tracking-widest text-sm font-mono mb-2 block">DIFERENCIAIS PREMIUM</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
+          Benefícios que Facilitam sua Oração Diária
+        </h2>
+        <p class="text-gray-300 text-lg max-w-2xl mx-auto mt-4 font-light">
+          Criamos um material extremamente funcional para se integrar à sua rotina moderna, sem burocracias.
+        </p>
+      </div>
+
+      <!-- Benefits Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         
-        <ul class="about-points">
-          <li class="about-point-item">
-            <span class="about-point-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </span>
-            <div>
-              <h4 class="about-point-title">Leitura Simples e Fluida</h4>
-              <p class="about-point-desc">Linguagem clara, sem complicações, acessível para todas as idades.</p>
-            </div>
-          </li>
-          <li class="about-point-item">
-            <span class="about-point-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </span>
-            <div>
-              <h4 class="about-point-title">Conteúdo Extremamente Organizado</h4>
-              <p class="about-point-desc">Categorizado por temas: saúde, proteção, família, prosperidade, etc.</p>
-            </div>
-          </li>
-          <li class="about-point-item">
-            <span class="about-point-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </span>
-            <div>
-              <h4 class="about-point-title">Acesso Imediato e Vitalício</h4>
-              <p class="about-point-desc">Baixe e leia em qualquer celular, tablet, Kindle ou computador.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
+        <!-- Benefit 1 -->
+        <div class="flex items-start gap-4 p-6 bg-navy rounded-2xl border border-white/5 hover:border-gold/10 transition-all duration-300">
+          <div class="w-12 h-12 bg-gold/15 rounded-xl flex items-center justify-center text-gold shrink-0">
+            <i data-lucide="send" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="font-serif text-lg font-bold text-white mb-2">✓ PDF imediato</h4>
+            <p class="text-gray-400 text-sm">Receba o link de download no seu e-mail imediatamente após a confirmação do pagamento.</p>
+          </div>
+        </div>
 
-      <div class="about-author-card">
-        <h3 class="author-name">Laís Fagundes</h3>
-        <p class="author-bio">"Dediquei minha vida ao ministério pastoral e à escrita de devocionais edificantes. Este eBook é o fruto de anos de meditação na Palavra e intercessão diária, criado para ser a ponte da sua comunhão com Deus."</p>
+        <!-- Benefit 2 -->
+        <div class="flex items-start gap-4 p-6 bg-navy rounded-2xl border border-white/5 hover:border-gold/10 transition-all duration-300">
+          <div class="w-12 h-12 bg-gold/15 rounded-xl flex items-center justify-center text-gold shrink-0">
+            <i data-lucide="smartphone" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="font-serif text-lg font-bold text-white mb-2">✓ Compatível com Celular</h4>
+            <p class="text-gray-400 text-sm">Abra e leia onde estiver, no trajeto do trabalho, no ônibus ou ao deitar-se.</p>
+          </div>
+        </div>
+
+        <!-- Benefit 3 -->
+        <div class="flex items-start gap-4 p-6 bg-navy rounded-2xl border border-white/5 hover:border-gold/10 transition-all duration-300">
+          <div class="w-12 h-12 bg-gold/15 rounded-xl flex items-center justify-center text-gold shrink-0">
+            <i data-lucide="tablet" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="font-serif text-lg font-bold text-white mb-2">✓ Tablet</h4>
+            <p class="text-gray-400 text-sm">Design adaptável que se ajusta em telas maiores de tablets de todas as marcas.</p>
+          </div>
+        </div>
+
+        <!-- Benefit 4 -->
+        <div class="flex items-start gap-4 p-6 bg-navy rounded-2xl border border-white/5 hover:border-gold/10 transition-all duration-300">
+          <div class="w-12 h-12 bg-gold/15 rounded-xl flex items-center justify-center text-gold shrink-0">
+            <i data-lucide="monitor" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="font-serif text-lg font-bold text-white mb-2">✓ Computador</h4>
+            <p class="text-gray-400 text-sm">Excelente para ler em sua mesa de escritório ou cabeceira no notebook.</p>
+          </div>
+        </div>
+
+        <!-- Benefit 5 -->
+        <div class="flex items-start gap-4 p-6 bg-navy rounded-2xl border border-white/5 hover:border-gold/15 transition-all duration-300 animate-pulse">
+          <div class="w-12 h-12 bg-gold/15 rounded-xl flex items-center justify-center text-gold shrink-0">
+            <i data-lucide="printer" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="font-serif text-lg font-bold text-gold mb-2">✓ Impressão</h4>
+            <p class="text-gray-400 text-sm">O arquivo está em alta definição. Você pode imprimir as folhas e plastificá-las para presentear.</p>
+          </div>
+        </div>
+
+        <!-- Benefit 6 -->
+        <div class="flex items-start gap-4 p-6 bg-navy rounded-2xl border border-white/5 hover:border-gold/10 transition-all duration-300">
+          <div class="w-12 h-12 bg-gold/15 rounded-xl flex items-center justify-center text-gold shrink-0">
+            <i data-lucide="eye" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="font-serif text-lg font-bold text-white mb-2">✓ Fácil Leitura</h4>
+            <p class="text-gray-400 text-sm">Tipografia projetada para não cansar os olhos, ideal para leituras noturnas.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- DEPOIMENTOS (TESTIMONIALS) -->
-  <section class="section-padding testimonials-section reveal" id="depoimentos">
-    <div class="container">
-      <div class="section-title-wrapper text-center">
-        <span class="section-subtitle">Depoimentos reais</span>
-        <h2 class="section-main-title">Histórias de Fé e Vidas Transformadas</h2>
+  <!-- BONUS SECTION -->
+  <section id="bonus" class="py-24 relative overflow-hidden bg-navy-dark">
+    <div class="aurora-glow absolute bottom-10 right-10 w-96 h-96 rounded-full pointer-events-none opacity-30"></div>
+    <div class="max-w-7xl mx-auto px-4 md:px-8 relative z-10">
+      
+      <div class="text-center mb-16">
+        <span class="text-gold font-semibold uppercase tracking-widest text-sm font-mono mb-2 block">BÔNUS EXCLUSIVOS</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
+          Presentes Premium para Edificar sua Vida
+        </h2>
+        <p class="text-gray-300 text-lg max-w-2xl mx-auto mt-4 font-light">
+          Ao adquirir o e-book hoje, você ganha acesso instantâneo a estes bônus especiais, totalmente sem custo extra.
+        </p>
       </div>
 
-      <div class="testimonials-grid">
-        <!-- Depoimento 1 -->
-        <div class="testimonial-card">
-          <div class="testimonial-stars">
-            ★★★★★
+      <!-- Bonus Cards Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        <!-- Bonus Card 1 -->
+        <div class="relative bg-gradient-to-b from-navy-light/60 to-navy-dark rounded-3xl p-8 border border-gold/40 shadow-xl overflow-hidden hover:-translate-y-2 transition-transform duration-300 group">
+          <div class="absolute top-0 right-0 bg-gold text-navy font-bold text-xs uppercase px-4 py-1.5 rounded-bl-2xl font-mono">Bônus #1</div>
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-6">
+            <i data-lucide="compass" class="w-8 h-8"></i>
           </div>
-          <p class="testimonial-text">"Esse livro tem sido meu refúgio todas as manhãs. As orações para ansiedade parecem falar diretamente comigo nos dias mais difíceis."</p>
-          <div class="testimonial-user">
-            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=100" alt="Ana Paula" class="testimonial-avatar">
+          <h3 class="font-serif text-2xl font-bold text-white mb-4">Guia de Leitura</h3>
+          <p class="text-gray-300 text-sm leading-relaxed mb-6">
+            Instruções essenciais sobre como focar seus pensamentos, encontrar ambientes adequados e potencializar seus momentos de intimidade e clamor com Deus.
+          </p>
+          <div class="text-gold font-bold text-sm tracking-wider uppercase border-t border-white/5 pt-4">✔ Incluso Gratuitamente</div>
+        </div>
+
+        <!-- Bonus Card 2 -->
+        <div class="relative bg-gradient-to-b from-navy-light/60 to-navy-dark rounded-3xl p-8 border border-gold/40 shadow-xl overflow-hidden hover:-translate-y-2 transition-transform duration-300 group">
+          <div class="absolute top-0 right-0 bg-gold text-navy font-bold text-xs uppercase px-4 py-1.5 rounded-bl-2xl font-mono">Bônus #2</div>
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-6">
+            <i data-lucide="calendar" class="w-8 h-8"></i>
+          </div>
+          <h3 class="font-serif text-2xl font-bold text-white mb-4">Plano de Oração de 30 Dias</h3>
+          <p class="text-gray-300 text-sm leading-relaxed mb-6">
+            Um cronograma prático passo a passo para criar o maravilhoso hábito diário de oração, guiando você pelas principais categorias do livro ao longo do mês.
+          </p>
+          <div class="text-gold font-bold text-sm tracking-wider uppercase border-t border-white/5 pt-4">✔ Incluso Gratuitamente</div>
+        </div>
+
+        <!-- Bonus Card 3 -->
+        <div class="relative bg-gradient-to-b from-navy-light/60 to-navy-dark rounded-3xl p-8 border border-gold/40 shadow-xl overflow-hidden hover:-translate-y-2 transition-transform duration-300 group">
+          <div class="absolute top-0 right-0 bg-gold text-navy font-bold text-xs uppercase px-4 py-1.5 rounded-bl-2xl font-mono">Bônus #3</div>
+          <div class="w-14 h-14 bg-gold/10 text-gold rounded-full flex items-center justify-center mb-6">
+            <i data-lucide="cross" class="w-8 h-8 text-gold"></i>
+          </div>
+          <h3 class="font-serif text-2xl font-bold text-white mb-4">Versículos para Momentos Difíceis</h3>
+          <p class="text-gray-300 text-sm leading-relaxed mb-6">
+            Uma seleção de promessas bíblicas e versículos essenciais de consolo e força que servem como âncoras celestiais para os dias de angústia.
+          </p>
+          <div class="text-gold font-bold text-sm tracking-wider uppercase border-t border-white/5 pt-4">✔ Incluso Gratuitamente</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS SECTION -->
+  <section id="depoimentos" class="py-24 relative overflow-hidden bg-navy-light/30">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 relative z-10">
+      
+      <div class="text-center mb-16">
+        <span class="text-gold font-semibold uppercase tracking-widest text-sm font-mono mb-2 block">DEPOIMENTOS</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
+          Histórias de Fé e Transformação
+        </h2>
+        <p class="text-gray-300 text-lg max-w-2xl mx-auto mt-4 font-light">
+          Veja o impacto que a oração diária tem causado na vida espiritual dos leitores deste e-book.
+        </p>
+      </div>
+
+      <!-- Testimonials Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Depoimento 1 -->
+        <div class="bg-navy p-8 rounded-2xl border border-white/5 flex flex-col justify-between hover:border-gold/15 transition-colors duration-300">
+          <div>
+            <div class="flex text-gold mb-4">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+            <p class="text-gray-300 text-sm italic leading-relaxed mb-6">
+              "As orações por cura e ansiedade me sustentaram em um dos momentos mais difíceis de saúde na minha família. Ter as orações organizadas facilitou muito o meu clamor nas madrugadas."
+            </p>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center font-bold text-gold text-sm">MC</div>
             <div>
-              <h4 class="testimonial-username">Ana Paula Silva</h4>
-              <span class="testimonial-userinfo">Belo Horizonte, MG</span>
+              <h5 class="text-white font-bold text-sm">Maria Clara</h5>
+              <p class="text-xs text-gray-400">São Paulo, SP</p>
             </div>
           </div>
         </div>
 
         <!-- Depoimento 2 -->
-        <div class="testimonial-card">
-          <div class="testimonial-stars">
-            ★★★★★
+        <div class="bg-navy p-8 rounded-2xl border border-white/5 flex flex-col justify-between hover:border-gold/15 transition-colors duration-300">
+          <div>
+            <div class="flex text-gold mb-4">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+            <p class="text-gray-300 text-sm italic leading-relaxed mb-6">
+              "Um livro simplesmente maravilhoso! O Plano de Oração de 30 Dias foi a ferramenta perfeita para me devolver o hábito de falar com Deus todos os dias pela manhã. Indico para todos da igreja."
+            </p>
           </div>
-          <p class="testimonial-text">"A oração de cura pela minha família trouxe uma paz que eu não sentia há meses. O design do livro é lindo e super prático de ler no celular."</p>
-          <div class="testimonial-user">
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" alt="Carlos Eduardo" class="testimonial-avatar">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center font-bold text-gold text-sm">JS</div>
             <div>
-              <h4 class="testimonial-username">Carlos E. Ferreira</h4>
-              <span class="testimonial-userinfo">Rio de Janeiro, RJ</span>
+              <h5 class="text-white font-bold text-sm">João Santos</h5>
+              <p class="text-xs text-gray-400">Belo Horizonte, MG</p>
             </div>
           </div>
         </div>
 
         <!-- Depoimento 3 -->
-        <div class="testimonial-card">
-          <div class="testimonial-stars">
-            ★★★★★
+        <div class="bg-navy p-8 rounded-2xl border border-white/5 flex flex-col justify-between hover:border-gold/15 transition-colors duration-300">
+          <div>
+            <div class="flex text-gold mb-4">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+            <p class="text-gray-300 text-sm italic leading-relaxed mb-6">
+              "Amei os bônus e a qualidade do material. O design do PDF facilita demais a leitura no celular. Tem sido meu companheiro diário logo após ler os versículos."
+            </p>
           </div>
-          <p class="testimonial-text">"Estava passando por uma tempestade profissional e as orações de prosperidade e sabedoria me sustentaram de forma extraordinária."</p>
-          <div class="testimonial-user">
-            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100" alt="Mariana Costa" class="testimonial-avatar">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center font-bold text-gold text-sm">AL</div>
             <div>
-              <h4 class="testimonial-username">Mariana Costa</h4>
-              <span class="testimonial-userinfo">São Paulo, SP</span>
+              <h5 class="text-white font-bold text-sm">Ana Lima</h5>
+              <p class="text-xs text-gray-400">Salvador, BA</p>
             </div>
           </div>
         </div>
 
         <!-- Depoimento 4 -->
-        <div class="testimonial-card">
-          <div class="testimonial-stars">
-            ★★★★★
+        <div class="bg-navy p-8 rounded-2xl border border-white/5 flex flex-col justify-between hover:border-gold/15 transition-colors duration-300">
+          <div>
+            <div class="flex text-gold mb-4">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+            <p class="text-gray-300 text-sm italic leading-relaxed mb-6">
+              "Como líder de jovens, encontrei nesse e-book um repertório fantástico para conduzir nossos círculos de oração. As divisões temáticas agilizam muito nossa busca espiritual."
+            </p>
           </div>
-          <p class="testimonial-text">"Comprei para ler com meus filhos antes de dormir. O lar ficou mais leve e todos nós passamos a dormir muito melhor. Deus seja louvado."</p>
-          <div class="testimonial-user">
-            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100" alt="Fernanda Alencar" class="testimonial-avatar">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center font-bold text-gold text-sm">PR</div>
             <div>
-              <h4 class="testimonial-username">Fernanda Alencar</h4>
-              <span class="testimonial-userinfo">Curitiba, PR</span>
+              <h5 class="text-white font-bold text-sm">Pedro Rocha</h5>
+              <p class="text-xs text-gray-400">Curitiba, PR</p>
             </div>
           </div>
         </div>
 
         <!-- Depoimento 5 -->
-        <div class="testimonial-card">
-          <div class="testimonial-stars">
-            ★★★★★
-          </div>
-          <p class="testimonial-text">"Nunca fui muito de saber o que falar nas orações, mas esse devocional mudou meu vocabulário espiritual. Me sinto muito mais íntimo do Criador."</p>
-          <div class="testimonial-user">
-            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=100" alt="Roberto Neves" class="testimonial-avatar">
-            <div>
-              <h4 class="testimonial-username">Roberto Neves</h4>
-              <span class="testimonial-userinfo">Salvador, BA</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Depoimento 6 -->
-        <div class="testimonial-card">
-          <div class="testimonial-stars">
-            ★★★★★
-          </div>
-          <p class="testimonial-text">"Dei de presente para minha mãe e ela não desgruda mais! Uma linguagem simples e muito pura que realmente nos aproxima do céu."</p>
-          <div class="testimonial-user">
-            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=100" alt="Laís Santos" class="testimonial-avatar">
-            <div>
-              <h4 class="testimonial-username">Beatriz Santos</h4>
-              <span class="testimonial-userinfo">Fortaleza, CE</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- OFERTA ESPECIAL / COMPRA (SECÇÃO COMPRAR) -->
-  <section class="section-padding reveal text-center" id="comprar" style="background: var(--bg-white);">
-    <div class="container" style="max-width: 800px;">
-      <span class="section-subtitle">Oferta Exclusiva</span>
-      <h2 class="section-main-title" style="margin-bottom: 12px;">Garanta Seu Exemplar Com Desconto Agora</h2>
-      <p style="margin-bottom: 40px;">O preço regular do eBook é de R$ 59,90, mas comprando nesta página promocional você garante mais de 75% de desconto e entrega imediata.</p>
-
-      <div style="background: var(--bg-light); border: 2px solid var(--secondary); border-radius: var(--radius-lg); padding: 50px 30px; box-shadow: var(--shadow-lg); position: relative; overflow: hidden;">
-        <div style="position: absolute; top: -10px; right: -10px; background: var(--secondary); color: var(--primary-dark); padding: 8px 30px; font-weight: 700; transform: rotate(15deg); font-size: 0.75rem; text-transform: uppercase;">Mais Vendido</div>
-        
-        <h3 style="font-size: 1.8rem; color: var(--primary); margin-bottom: 15px;">200 Orações Poderosas</h3>
-        <p style="text-decoration: line-through; color: var(--text-muted); font-size: 1.1rem; margin-bottom: 5px;">De R$ 59,90 por apenas</p>
-        <p style="font-size: 3.5rem; font-weight: 800; color: var(--primary); line-height: 1; margin-bottom: 10px;">R$ 12,99</p>
-        <p style="font-size: 0.85rem; color: var(--secondary-dark); font-weight: 600; margin-bottom: 30px; text-transform: uppercase; letter-spacing: 0.5px;">Ou em até 3x no cartão</p>
-
-        <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px; max-width: 380px; margin: 0 auto 35px; text-align: left;">
-          <li style="display: flex; gap: 10px; font-size: 0.9rem; font-weight: 500; color: var(--primary);"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><polyline points="20 6 9 17 4 12"/></svg> eBook Digital de Alta Resolução</li>
-          <li style="display: flex; gap: 10px; font-size: 0.9rem; font-weight: 500; color: var(--primary);"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><polyline points="20 6 9 17 4 12"/></svg> Bônus: Devocional Diário Pocket</li>
-          <li style="display: flex; gap: 10px; font-size: 0.9rem; font-weight: 500; color: var(--primary);"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><polyline points="20 6 9 17 4 12"/></svg> Acesso Vitalício sem Mensalidades</li>
-          <li style="display: flex; gap: 10px; font-size: 0.9rem; font-weight: 500; color: var(--primary);"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><polyline points="20 6 9 17 4 12"/></svg> Garantia de Incondicional de 7 dias</li>
-        </ul>
-
-        <a href="https://dashboard.kiwify.com/join/affiliate/xRBJkR29" target="_blank" class="btn btn-gold" style="width: 100%; max-width: 400px; padding: 18px 0; font-size: 1rem; border-radius: 50px;">Adquirir eBook Agora</a>
-        
-        <div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 25px; flex-wrap: wrap;">
-          <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa" style="height: 25px; object-fit: contain;">
-          <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="Mastercard" style="height: 25px; object-fit: contain;">
-          <img src="https://img.icons8.com/color/48/000000/elo.png" alt="Elo" style="height: 25px; object-fit: contain;">
-          <img src="https://img.icons8.com/color/48/000000/pix.png" alt="Pix" style="height: 25px; object-fit: contain;">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ EM ACORDEÃO -->
-  <section class="section-padding reveal" style="background: var(--bg-light);">
-    <div class="container">
-      <div class="section-title-wrapper text-center">
-        <span class="section-subtitle">Dúvidas Frequentes</span>
-        <h2 class="section-main-title">Tire Suas Principais Perguntas</h2>
-      </div>
-
-      <div class="faq-container">
-        <!-- Item 1 -->
-        <div class="faq-item">
-          <div class="faq-header" onclick="toggleFaq(this)">
-            <span class="faq-question">Como vou receber o eBook?</span>
-            <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
-          </div>
-          <div class="faq-body">
-            <div class="faq-content">Assim que seu pagamento for confirmado, você receberá automaticamente um e-mail com os dados de acesso para fazer o download imediato do eBook em PDF no seu celular, tablet ou computador.</div>
-          </div>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="faq-item">
-          <div class="faq-header" onclick="toggleFaq(this)">
-            <span class="faq-question">Posso ler no celular ou Kindle?</span>
-            <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
-          </div>
-          <div class="faq-body">
-            <div class="faq-content">Sim! O formato do eBook é universal (PDF), perfeitamente compatível com qualquer aplicativo de leitura de celular, tablet, computador e leitores digitais como o Kindle.</div>
-          </div>
-        </div>
-
-        <!-- Item 3 -->
-        <div class="faq-item">
-          <div class="faq-header" onclick="toggleFaq(this)">
-            <span class="faq-question">O pagamento é seguro?</span>
-            <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
-          </div>
-          <div class="faq-body">
-            <div class="faq-content">Totalmente seguro. Todo o processo de compra é processado por plataformas seguras de alta tecnologia com criptografia de dados bancários, garantindo a sua total privacidade e proteção.</div>
-          </div>
-        </div>
-
-        <!-- Item 4 -->
-        <div class="faq-item">
-          <div class="faq-header" onclick="toggleFaq(this)">
-            <span class="faq-question">Há alguma garantia se eu não gostar?</span>
-            <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
-          </div>
-          <div class="faq-body">
-            <div class="faq-content">Sim! Oferecemos uma garantia incondicional de 7 dias. Se por qualquer motivo você achar que o livro não edificou sua rotina de orações, basta nos enviar um e-mail para receber 100% do seu reembolso.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTATO -->
-  <section class="section-padding contact-section reveal" id="contato">
-    <div class="container contact-grid">
-      <div class="contact-info-panel">
-        <div>
-          <span class="section-subtitle">Fale Conosco</span>
-          <h2 class="section-main-title" style="margin-bottom: 16px;">Estamos Aqui para Ajudar</h2>
-          <p>Dúvidas sobre o eBook, dificuldades no download ou interesse em parcerias? Nossa equipe responderá suas mensagens de prontidão.</p>
-        </div>
-
-        <div class="contact-card">
-          <div class="contact-icon-box">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          </div>
+        <div class="bg-navy p-8 rounded-2xl border border-white/5 flex flex-col justify-between hover:border-gold/15 transition-colors duration-300 lg:col-span-1 md:col-span-2 max-w-md mx-auto md:max-w-none w-full">
           <div>
-            <h4 class="contact-card-title">Suporte por E-mail</h4>
-            <p class="contact-card-text">Envie suas dúvidas para o suporte oficial da Vox Divina.</p>
-            <a href="mailto:andreicosta2525@gmail.com" class="btn btn-outline-gold contact-card-btn">Enviar Email</a>
+            <div class="flex text-gold mb-4">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+            <p class="text-gray-300 text-sm italic leading-relaxed mb-6">
+              "Nunca estive tão próxima da presença de Deus. Esse e-book foi uma resposta divina para um período de muita secura em minha jornada. Só tenho a agradecer ao Vox Divina!"
+            </p>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center font-bold text-gold text-sm">FO</div>
+            <div>
+              <h5 class="text-white font-bold text-sm">Fernanda Oliveira</h5>
+              <p class="text-xs text-gray-400">Rio de Janeiro, RJ</p>
+            </div>
           </div>
         </div>
 
-        <div class="contact-card">
-          <div class="contact-icon-box">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
-          </div>
-          <div>
-            <h4 class="contact-card-title">Nosso Canal no YouTube</h4>
-            <p class="contact-card-text">Acompanhe nossas orações diárias, mensagens de fé e vídeos em áudio.</p>
-            <a href="https://youtube.com/@voxdivina-96?si=nJ2oqAv4ZXrP2sru" target="_blank" class="btn btn-outline-gold contact-card-btn">Conhecer Canal</a>
-          </div>
-        </div>
       </div>
 
-      <div class="contact-form">
-        <h3 style="color: var(--primary); margin-bottom: 20px; font-size: 1.35rem;">Envie uma Mensagem</h3>
-        <form id="contactForm" onsubmit="handleContactSubmit(event)">
-          <div class="form-grid">
-            <div class="form-group">
-              <label class="form-label" for="contactName">Nome</label>
-              <input type="text" id="contactName" class="form-control" placeholder="Seu nome completo" required>
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="contactEmail">E-mail</label>
-              <input type="email" id="contactEmail" class="form-control" placeholder="Seu melhor e-mail" required>
-            </div>
-            <div class="form-group form-group-full">
-              <label class="form-label" for="contactPhone">Telefone / WhatsApp</label>
-              <input type="tel" id="contactPhone" class="form-control" placeholder="(00) 90000-0000">
-            </div>
-            <div class="form-group form-group-full">
-              <label class="form-label" for="contactMessage">Mensagem</label>
-              <textarea id="contactMessage" class="form-control" placeholder="Escreva sua mensagem com detalhes..." required></textarea>
-            </div>
-          </div>
-          <button type="submit" class="btn btn-gold" style="width: 100%; border-radius: var(--radius);">Enviar Mensagem</button>
-        </form>
-      </div>
     </div>
   </section>
 
-  <!-- PROGRAMA DE AFILIADOS -->
-  <section class="section-padding affiliates-section reveal" id="afiliados">
-    <div class="container text-center">
-      <span class="section-subtitle" style="color: var(--secondary);">Parceria Vox Divina</span>
-      <h2 class="affiliates-title">🚀 Torne-se um Afiliado Vox Divina</h2>
-      <p class="affiliates-subtitle">Divulgue o eBook 200 Orações Poderosas para Todas as Situações e ganhe comissão por cada venda realizada. O cadastro é gratuito e você receberá seu link exclusivo para começar a vender imediatamente.</p>
+  <!-- GALLERY SECTION -->
+  <section class="py-24 relative overflow-hidden bg-navy-dark">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 relative z-10">
+      
+      <div class="text-center mb-16">
+        <span class="text-gold font-semibold uppercase tracking-widest text-sm font-mono mb-2 block">GALERIA DE CONTEMPLAÇÃO</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
+          Momentos de Devoção e Glória
+        </h2>
+        <p class="text-gray-300 text-lg max-w-2xl mx-auto mt-4 font-light">
+          Clique nas imagens para expandi-las e refletir com os cenários sagrados de oração.
+        </p>
+      </div>
 
-      <div class="affiliates-grid">
-        <div class="affiliate-card">
-          <div class="affiliate-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      <!-- Gallery Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Photo 1 -->
+        <div onclick="openLightbox(this)" class="group cursor-zoom-in relative rounded-2xl overflow-hidden border border-white/5 hover:border-gold/40 transition-all duration-300 aspect-[4/3] bg-navy-light shadow-lg">
+          <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=800" alt="Bíblia Sagrada" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-navy-dark via-navy-dark/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <span class="text-xs text-gold uppercase tracking-wider font-mono">Espiritualidade</span>
+              <p class="text-white font-bold font-serif text-lg">A Palavra Viva</p>
+            </div>
           </div>
-          <h3 class="affiliate-card-title">💰 Ganhe Comissão</h3>
-          <p class="affiliate-card-text">Receba comissões generosas diretamente na sua conta por cada venda aprovada realizada através da sua indicação.</p>
         </div>
 
-        <div class="affiliate-card">
-          <div class="affiliate-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        <!-- Photo 2 -->
+        <div onclick="openLightbox(this)" class="group cursor-zoom-in relative rounded-2xl overflow-hidden border border-white/5 hover:border-gold/40 transition-all duration-300 aspect-[4/3] bg-navy-light shadow-lg">
+          <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800" alt="Pessoa Orando" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-navy-dark via-navy-dark/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <span class="text-xs text-gold uppercase tracking-wider font-mono">Clamor</span>
+              <p class="text-white font-bold font-serif text-lg">Oração Sincera</p>
+            </div>
           </div>
-          <h3 class="affiliate-card-title">🔗 Link Exclusivo</h3>
-          <p class="affiliate-card-text">Tenha seu próprio link de divulgação rastreável e acesse relatórios de vendas em tempo real na plataforma da Kiwify.</p>
         </div>
 
-        <div class="affiliate-card">
-          <div class="affiliate-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+        <!-- Photo 3 -->
+        <div onclick="openLightbox(this)" class="group cursor-zoom-in relative rounded-2xl overflow-hidden border border-white/5 hover:border-gold/40 transition-all duration-300 aspect-[4/3] bg-navy-light shadow-lg">
+          <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://images.unsplash.com/photo-1510224118059-ee34bf2c0026?auto=format&fit=crop&q=80&w=800" alt="Cruz Cristã" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-navy-dark via-navy-dark/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <span class="text-xs text-gold uppercase tracking-wider font-mono">Redenção</span>
+              <p class="text-white font-bold font-serif text-lg">A Santa Cruz</p>
+            </div>
           </div>
-          <h3 class="affiliate-card-title">📈 Venda Online</h3>
-          <p class="affiliate-card-text">Divulgue facilmente nas redes sociais, YouTube, Instagram, TikTok, canais do Telegram ou grupos de WhatsApp.</p>
+        </div>
+
+        <!-- Photo 4 -->
+        <div onclick="openLightbox(this)" class="group cursor-zoom-in relative rounded-2xl overflow-hidden border border-white/5 hover:border-gold/40 transition-all duration-300 aspect-[4/3] bg-navy-light shadow-lg">
+          <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&q=80&w=800" alt="Nascer do sol" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-navy-dark via-navy-dark/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <span class="text-xs text-gold uppercase tracking-wider font-mono">Renovação</span>
+              <p class="text-white font-bold font-serif text-lg">Aurora do Senhor</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo 5 -->
+        <div onclick="openLightbox(this)" class="group cursor-zoom-in relative rounded-2xl overflow-hidden border border-white/5 hover:border-gold/40 transition-all duration-300 aspect-[4/3] bg-navy-light shadow-lg">
+          <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://images.unsplash.com/photo-1438032005730-c779502df39b?auto=format&fit=crop&q=80&w=800" alt="Igreja antiga" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-navy-dark via-navy-dark/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <span class="text-xs text-gold uppercase tracking-wider font-mono">Adoração</span>
+              <p class="text-white font-bold font-serif text-lg">Templo de Oração</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo 6 -->
+        <div onclick="openLightbox(this)" class="group cursor-zoom-in relative rounded-2xl overflow-hidden border border-white/5 hover:border-gold/40 transition-all duration-300 aspect-[4/3] bg-navy-light shadow-lg">
+          <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&q=80&w=800" alt="Luz dourada" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-navy-dark via-navy-dark/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div>
+              <span class="text-xs text-gold uppercase tracking-wider font-mono">Glória</span>
+              <p class="text-white font-bold font-serif text-lg">Luz Divina</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LIGHTBOX CONTAINER (MODAL) -->
+  <div id="lightbox" class="fixed inset-0 bg-navy-dark/95 z-[9999] hidden flex items-center justify-center p-4 backdrop-blur-md">
+    <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white hover:text-gold transition-colors p-2" aria-label="Fechar galeria">
+      <i data-lucide="x" class="w-8 h-8"></i>
+    </button>
+    <div class="max-w-4xl max-h-[80vh] relative">
+      <img id="lightbox-img" class="max-w-full max-h-[75vh] rounded-xl object-contain border border-gold/20 shadow-2xl mx-auto" src="" alt="Imagem expandida">
+      <p id="lightbox-caption" class="text-center text-gold font-serif text-lg mt-4 tracking-wider"></p>
+    </div>
+  </div>
+
+  <!-- FAQ SECTION (ACCORDION) -->
+  <section id="faq" class="py-24 relative overflow-hidden bg-navy-light/30">
+    <div class="max-w-4xl mx-auto px-4 md:px-8 relative z-10">
+      
+      <div class="text-center mb-16">
+        <span class="text-gold font-semibold uppercase tracking-widest text-sm font-mono mb-2 block">DÚVIDAS FREQUENTES</span>
+        <h2 class="font-serif text-3xl md:text-5xl font-bold tracking-tight text-white">
+          Perguntas Frequentes
+        </h2>
+        <p class="text-gray-300 text-lg mt-4 font-light">
+          Esclareça suas dúvidas técnicas e financeiras sobre o e-book.
+        </p>
+      </div>
+
+      <!-- FAQ Accordions Container -->
+      <div class="flex flex-col gap-4">
+        
+        <!-- Accordion 1 -->
+        <div class="bg-navy border border-white/5 rounded-2xl overflow-hidden transition-all duration-300">
+          <button onclick="toggleFaq(this)" class="w-full py-5 px-6 flex items-center justify-between text-left font-serif text-lg font-bold text-white hover:text-gold transition-colors focus:outline-none">
+            <span>Como recebo o e-book?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-gold shrink-0 transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-navy-light/20">
+            <p class="p-6 text-gray-300 text-sm leading-relaxed">
+              O recebimento é totalmente imediato. Assim que o pagamento for aprovado (o PIX e cartão aprovam em menos de 1 minuto), você receberá um link seguro para o download do arquivo PDF diretamente no endereço de e-mail que informou no momento da compra.
+            </p>
+          </div>
+        </div>
+
+        <!-- Accordion 2 -->
+        <div class="bg-navy border border-white/5 rounded-2xl overflow-hidden transition-all duration-300">
+          <button onclick="toggleFaq(this)" class="w-full py-5 px-6 flex items-center justify-between text-left font-serif text-lg font-bold text-white hover:text-gold transition-colors focus:outline-none">
+            <span>Funciona no meu telefone celular?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-gold shrink-0 transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-navy-light/20">
+            <p class="p-6 text-gray-300 text-sm leading-relaxed">
+              Sim! O arquivo do e-book é entregue em formato PDF de alta resolução, o qual é universalmente compatível com absolutamente qualquer aparelho celular (Android e iOS), tablet, computador de mesa ou notebook sem requerer nenhum aplicativo pago.
+            </p>
+          </div>
+        </div>
+
+        <!-- Accordion 3 -->
+        <div class="bg-navy border border-white/5 rounded-2xl overflow-hidden transition-all duration-300">
+          <button onclick="toggleFaq(this)" class="w-full py-5 px-6 flex items-center justify-between text-left font-serif text-lg font-bold text-white hover:text-gold transition-colors focus:outline-none">
+            <span>O livro é em formato digital ou físico?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-gold shrink-0 transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-navy-light/20">
+            <p class="p-6 text-gray-300 text-sm leading-relaxed">
+              O material é 100% digital (e-book no formato PDF), garantindo entrega instantânea no seu e-mail e evitando fretes caros ou atrasos de entrega dos Correios. Você pode, se preferir, efetuar a impressão doméstica ou gráfica de maneira muito simples.
+            </p>
+          </div>
+        </div>
+
+        <!-- Accordion 4 -->
+        <div class="bg-navy border border-white/5 rounded-2xl overflow-hidden transition-all duration-300">
+          <button onclick="toggleFaq(this)" class="w-full py-5 px-6 flex items-center justify-between text-left font-serif text-lg font-bold text-white hover:text-gold transition-colors focus:outline-none">
+            <span>Preciso pagar alguma mensalidade ou taxa extra?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-gold shrink-0 transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-navy-light/20">
+            <p class="p-6 text-gray-300 text-sm leading-relaxed">
+              Não. O valor cobrado é de taxa única de R$ 12,99. Você compra uma única vez e garante o acesso perpétuo ao arquivo do e-book e a todos os 3 bônus descritos nesta página, sem qualquer custo adicional futuro.
+            </p>
+          </div>
+        </div>
+
+        <!-- Accordion 5 -->
+        <div class="bg-navy border border-white/5 rounded-2xl overflow-hidden transition-all duration-300">
+          <button onclick="toggleFaq(this)" class="w-full py-5 px-6 flex items-center justify-between text-left font-serif text-lg font-bold text-white hover:text-gold transition-colors focus:outline-none">
+            <span>Quanto custa o e-book com os bônus inclusos?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 text-gold shrink-0 transition-transform duration-300"></i>
+          </button>
+          <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-navy-light/20">
+            <p class="p-6 text-gray-300 text-sm leading-relaxed">
+              Tanto o e-book principal "200 Orações Poderosas" quanto os 3 bônus exclusivos saem pelo preço de apenas R$ 12,99. Trata-se de uma oferta promocional sem reajustes, para apoiar a sua caminhada devocional.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FINAL CALL TO ACTION (CTA) -->
+  <section class="py-24 relative overflow-hidden bg-navy-dark text-center">
+    <div class="aurora-glow absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full pointer-events-none opacity-20"></div>
+    <div class="max-w-4xl mx-auto px-4 md:px-8 relative z-10">
+      
+      <div class="w-16 h-16 bg-gold/15 text-gold rounded-full flex items-center justify-center mx-auto mb-6">
+        <i data-lucide="book-open" class="w-8 h-8"></i>
+      </div>
+      
+      <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-6 text-gold-gradient">
+        Comece hoje mesmo sua caminhada de oração.
+      </h2>
+      
+      <p class="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-light">
+        Não adie mais o seu alinhamento com a presença do Pai Celestial. Por apenas <strong class="text-gold text-2xl font-serif">R$ 12,99</strong>, receba o e-book completo contendo as 200 Orações mais os 3 Bônus Gratuitamente.
+      </p>
+
+      <!-- Urgency Scarcity Ticker -->
+      <div class="inline-flex items-center gap-3 px-6 py-2 bg-navy-light border border-gold/20 rounded-full mb-10 text-xs sm:text-sm font-mono text-gold tracking-wider">
+        <i data-lucide="clock" class="w-4 h-4 animate-pulse"></i>
+        <span>Preço Promocional por tempo limitado:</span>
+        <span id="countdown-timer" class="font-bold text-white bg-navy-dark px-2.5 py-0.5 rounded border border-white/10">00:15:00</span>
+      </div>
+
+      <!-- Action Button -->
+      <div class="flex flex-col items-center gap-4">
+        <a href="https://pay.kiwify.com.br/749ZSIM" target="_blank" rel="noopener noreferrer" class="btn-ripple w-full sm:w-auto inline-flex items-center justify-center px-12 py-6 bg-gold hover:bg-gold-dark text-navy font-extrabold rounded-full transition-all duration-300 text-xl shadow-xl shadow-gold/30 hover:-translate-y-1 uppercase tracking-widest">
+          🛒 Comprar Agora
+        </a>
+        
+        <!-- Safe Payment badges -->
+        <div class="flex items-center justify-center gap-6 mt-6 flex-wrap opacity-80">
+          <div class="flex items-center gap-1.5 text-xs text-gray-400 font-mono">
+            <i data-lucide="lock" class="w-4 h-4 text-gold"></i>
+            <span>Ambiente Seguro</span>
+          </div>
+          <div class="flex items-center gap-1.5 text-xs text-gray-400 font-mono">
+            <i data-lucide="zap" class="w-4 h-4 text-gold"></i>
+            <span>Acesso Instantâneo</span>
+          </div>
+          <div class="flex items-center gap-1.5 text-xs text-gray-400 font-mono">
+            <i data-lucide="check-circle-2" class="w-4 h-4 text-gold"></i>
+            <span>Garantia de 7 Dias</span>
+          </div>
         </div>
       </div>
 
-      <div class="affiliate-cta">
-        <a href="https://dashboard.kiwify.com/join/affiliate/xRBJkR29" target="_blank" class="btn btn-gold" style="padding: 16px 40px; font-size: 0.95rem;">Quero Ser Afiliado</a>
-      </div>
     </div>
   </section>
 
   <!-- FOOTER -->
-  <footer>
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <a href="#inicio" class="logo-block">
-          <span class="logo-title">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary)"><path d="M11 2h2v7h5v2h-5v11h-2v-11H6V9h5V2z"/></svg>
-            Vox Divina
-          </span>
-          <span class="logo-subtitle" style="color: rgba(255, 255, 255, 0.5)">Autora Laís Fagundes</span>
-        </a>
-        <p class="footer-desc">Dedicados a espalhar a palavra de fé, esperança e oração diária pelo Brasil. Junte-se a milhares de leitores na nossa comunidade cristã.</p>
-      </div>
-
-      <div>
-        <h4 class="footer-title">Links Rápidos</h4>
-        <ul class="footer-links">
-          <li class="footer-link-item"><a href="#inicio">Início</a></li>
-          <li class="footer-link-item"><a href="#sobre">Sobre o eBook</a></li>
-          <li class="footer-link-item"><a href="#beneficios">Benefícios</a></li>
-          <li class="footer-link-item"><a href="#conteudo">Conteúdo</a></li>
-          <li class="footer-link-item"><a href="#depoimentos">Depoimentos</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 class="footer-title">Parcerias</h4>
-        <ul class="footer-links">
-          <li class="footer-link-item"><a href="#afiliados">Programa de Afiliados</a></li>
-          <li class="footer-link-item"><a href="#comprar">Comprar eBook</a></li>
-          <li class="footer-link-item"><a href="#contato">Fale com Suporte</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 class="footer-title">Redes & Contato</h4>
-        <p class="footer-desc" style="margin-bottom: 12px;">andreicosta2525@gmail.com</p>
-        <div class="footer-socials" style="margin-bottom: 16px;">
-          <a href="https://youtube.com/@voxdivina-96?si=nJ2oqAv4ZXrP2sru" target="_blank" class="social-btn" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a>
-          <a href="#" class="social-btn" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+  <footer id="contato" class="bg-navy-dark border-t border-white/10 pt-16 pb-8 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-white/5">
+        
+        <!-- Column 1: Info -->
+        <div class="md:col-span-5">
+          <span class="font-serif text-2xl font-bold tracking-widest text-white block mb-4">VOX <span class="text-gold">DIVINA</span></span>
+          <p class="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
+            Um ministério cristão focado em inspirar, guiar e fortalecer sua jornada devocional e espiritual com a presença santa de Deus através do poder do clamor e da oração.
+          </p>
+          <div class="flex flex-col gap-2 font-mono text-xs text-gray-400">
+            <p class="flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4 text-gold"></i> andreicosta2525@gmail.com</p>
+            <p class="flex items-center gap-2"><i data-lucide="youtube" class="w-4 h-4 text-gold"></i> Canal Oficial Vox Divina</p>
+          </div>
         </div>
-      </div>
-    </div>
 
-    <div class="container footer-bottom">
-      <p class="footer-copy">© 2026 Vox Divina. Todos os direitos reservados. Autora Laís Fagundes.</p>
-      <div class="footer-policy">
-        <a href="#">Políticas de Privacidade</a>
-        <a href="#">Termos de Uso</a>
+        <!-- Column 2: Quick Links -->
+        <div class="md:col-span-3">
+          <h4 class="text-white font-bold text-sm tracking-wider uppercase mb-4">Links Rápidos</h4>
+          <div class="flex flex-col gap-2.5 text-sm text-gray-400">
+            <a href="#inicio" class="hover:text-gold transition-colors">Início</a>
+            <a href="#sobre" class="hover:text-gold transition-colors">Quem Somos</a>
+            <a href="#conteudo" class="hover:text-gold transition-colors">Temas e Orações</a>
+            <a href="#beneficios" class="hover:text-gold transition-colors">Benefícios do PDF</a>
+            <a href="#faq" class="hover:text-gold transition-colors">Dúvidas Frequentes</a>
+          </div>
+        </div>
+
+        <!-- Column 3: Youtube and Call -->
+        <div class="md:col-span-4 flex flex-col justify-start items-start">
+          <h4 class="text-white font-bold text-sm tracking-wider uppercase mb-4">Acompanhe Nosso Canal</h4>
+          <p class="text-gray-400 text-sm leading-relaxed mb-6">
+            Inscreva-se no nosso canal oficial do YouTube para receber orações narradas e reflexões bíblicas diárias em vídeo de alta qualidade.
+          </p>
+          <a href="https://youtube.com/@voxdivina-96?si=Y1RGcEYRqRzxDdoV" target="_blank" rel="noopener noreferrer" class="btn-ripple flex items-center justify-center gap-2 px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-bold rounded-full transition-all duration-300 text-sm tracking-wider w-full sm:w-auto shadow-lg shadow-red-600/10">
+            <i data-lucide="youtube" class="w-5 h-5"></i>
+            <span>▶ Visitar Canal</span>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Legal & Rights -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500 font-mono">
+        <p>&copy; 2026 Vox Divina. Todos os direitos reservados.</p>
+        <div class="flex gap-4">
+          <a href="#" class="hover:text-gold transition-colors">Políticas de Privacidade</a>
+          <a href="#" class="hover:text-gold transition-colors">Termos de Uso</a>
+        </div>
       </div>
     </div>
   </footer>
 
-  <!-- BOTÃO VOLTAR AO TOPO -->
-  <div class="back-to-top" id="backToTop" onclick="scrollToTop()">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
-  </div>
+  <!-- BUTTON TO TOP -->
+  <button id="btn-top" class="fixed bottom-6 left-6 w-12 h-12 bg-navy border border-gold/30 hover:border-gold text-gold rounded-full flex items-center justify-center transition-all duration-300 opacity-0 pointer-events-none z-[40] shadow-lg focus:outline-none" aria-label="Voltar ao topo">
+    <i data-lucide="arrow-up" class="w-5 h-5"></i>
+  </button>
 
-  <!-- SOCIAL PROOF TOAST -->
-  <div class="social-proof-toast" id="socialProofToast">
-    <div class="toast-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+  <!-- LAÍS VIRTUAL ASSISTANT CHATBOT -->
+  <div class="fixed bottom-6 right-6 z-[49] flex flex-col items-end">
+    
+    <!-- Floating Notification Bubble -->
+    <div id="chat-bubble" class="hidden max-w-xs bg-navy border border-gold/40 p-4 rounded-2xl shadow-2xl mb-3 mr-1 relative cursor-pointer hover:border-gold transition-all duration-300 transform scale-95 opacity-0">
+      <button onclick="closeBubble(event)" class="absolute top-2 right-2 text-gray-400 hover:text-gold"><i data-lucide="x" class="w-3.5 h-3.5"></i></button>
+      <div class="flex items-start gap-2">
+        <div class="w-8 h-8 rounded-full bg-gold/10 overflow-hidden border border-gold shrink-0 mt-0.5">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150" alt="Laís" class="w-full h-full object-cover">
+        </div>
+        <div>
+          <h5 class="text-xs font-bold text-gold">Laís | Vox Divina</h5>
+          <p class="text-xs text-gray-200 mt-1">🙏 Que a paz de Deus esteja com você! Tem alguma dúvida sobre o e-book ou quer receber um versículo?</p>
+        </div>
+      </div>
     </div>
-    <div class="toast-content">
-      <span class="toast-title" id="toastTitle">Maria S. acabou de comprar</span>
-      <span class="toast-subtitle" id="toastSubtitle">Há 3 minutos via Pix</span>
-    </div>
-  </div>
 
-  <!-- JAVASCRIPT COMPLETO E OTIMIZADO -->
-  <script>
-    // MOBILE MENU TOGGLE
-    const mobileToggle = document.getElementById('mobileToggle');
-    const navMenu = document.getElementById('navMenu');
+    <!-- Chat Trigger Button -->
+    <button id="chat-trigger" class="w-14 h-14 bg-gold hover:bg-gold-dark text-navy rounded-full flex items-center justify-center shadow-xl shadow-gold/20 transition-all duration-300 hover:scale-110 focus:outline-none relative">
+      <span class="absolute -top-1 -right-1 w-4 h-4 bg-red-600 rounded-full flex items-center justify-center text-[9px] font-bold text-white animate-pulse" id="chat-badge">1</span>
+      <i data-lucide="message-square" class="w-6 h-6 shrink-0" id="chat-icon-msg"></i>
+      <i data-lucide="x" class="w-6 h-6 shrink-0 hidden" id="chat-icon-close"></i>
+    </button>
 
-    mobileToggle.addEventListener('click', () => {
-      mobileToggle.classList.toggle('active');
-      navMenu.classList.toggle('active');
-    });
-
-    // FECHAR MENU AO CLICAR EM LINK
-    document.querySelectorAll('.nav-link').forEach(link => {
-      link.addEventListener('click', () => {
-        mobileToggle.classList.remove('active');
-        navMenu.classList.remove('active');
-      });
-    });
-
-    // NAVBAR MUDANÇA DE COR AO ROLAR & BOTÃO VOLTAR AO TOPO
-    const header = document.getElementById('header');
-    const backToTop = document.getElementById('backToTop');
-
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 50) {
-        header.classList.add('scrolled');
-      } else {
-        header.classList.remove('scrolled');
-      }
-
-      if (window.scrollY > 400) {
-        backToTop.classList.add('visible');
-      } else {
-        backToTop.classList.remove('visible');
-      }
-    });
-
-    function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    }
-
-    // SCROLL REVEAL ANIMATION (LAZY TRIGGER)
-    const revealElements = document.querySelectorAll('.reveal');
-
-    const revealOnScroll = () => {
-      const triggerBottom = window.innerHeight * 0.85;
-
-      revealElements.forEach(elem => {
-        const elemTop = elem.getBoundingClientRect().top;
-        if (elemTop < triggerBottom) {
-          elem.classList.add('active');
-        }
-      });
-    };
-
-    window.addEventListener('scroll', revealOnScroll);
-    revealOnScroll(); // Trigger inicial
-
-    // CONTADORES ANIMADOS
-    const stats = document.querySelectorAll('.stat-number');
-    let animatedStats = false;
-
-    const animateStats = () => {
-      if (animatedStats) return;
-
-      stats.forEach(stat => {
-        const target = parseInt(stat.getAttribute('data-target'));
-        const duration = 2000; // 2 segundos
-        const step = target / (duration / 16); // ~60fps
-        let current = 0;
-
-        const updateCounter = () => {
-          current += step;
-          if (current >= target) {
-            stat.textContent = target === 10000 ? '+10.000' : target;
-          } else {
-            stat.textContent = target === 10000 ? '+' + Math.floor(current).toLocaleString() : Math.floor(current);
-            requestAnimationFrame(updateCounter);
-          }
-        };
-
-        updateCounter();
-      });
-
-      animatedStats = true;
-    };
-
-    // Detectar quando a seção do hero / stats está visível para animar
-    const statsObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          animateStats();
-        }
-      });
-    }, { threshold: 0.5 });
-
-    if (stats.length > 0) {
-      statsObserver.observe(document.querySelector('.stats-row'));
-    }
-
-    // TIMER PROMOCIONAL (RECONTAR CONSTANTE)
-    const promoTimer = () => {
-      const hoursEl = document.getElementById('hours');
-      const minutesEl = document.getElementById('minutes');
-      const secondsEl = document.getElementById('seconds');
-
-      // Tempo de expiração (sempre simular uma urgência de algumas horas)
-      let timeRemaining = (23 * 3600) + (58 * 60) + 45; // 23:58:45
-
-      const updateTimer = () => {
-        if (timeRemaining <= 0) {
-          timeRemaining = (24 * 3600); // reset diário
-        }
-
-        const hrs = Math.floor(timeRemaining / 3600);
-        const mins = Math.floor((timeRemaining % 3600) / 60);
-        const secs = timeRemaining % 60;
-
-        hoursEl.textContent = String(hrs).padStart(2, '0');
-        minutesEl.textContent = String(mins).padStart(2, '0');
-        secondsEl.textContent = String(secs).padStart(2, '0');
-
-        timeRemaining--;
-      };
-
-      setInterval(updateTimer, 1000);
-      updateTimer();
-    };
-
-    promoTimer();
-
-    // INTERACTIVE PRAYER SAMPLE TABS
-    const prayerTexts = {
-      protecao: {
-        text: '"Senhor, que a Tua mão de proteção cubra minha vida, meu lar e meus entes queridos hoje e sempre. Livra-nos de todo o mal invisível e guarda nossas entradas e saídas debaixo do Teu escudo glorioso. Amém."',
-        cap: 'Capítulo 1: Proteção Divina'
-      },
-      cura: {
-        text: '"Pai Eterno, estende Tua mão restauradora sobre as enfermidades físicas e aflições da alma. Concedo-Te a minha saúde e clamo pelo Teu sopro divino de vitalidade e plena reabilitação. Amém."',
-        cap: 'Capítulo 4: Cura física e espiritual'
-      },
-      paz: {
-        text: '"Senhor da paz, acalma as tempestades da minha ansiedade e as inquietações do meu amanhã. Ensina meu coração a descansar nas Tuas promessas infalíveis e viver em serenidade de espírito. Amém."',
-        cap: 'Capítulo 7: Encontrando Paz na Tempestade'
-      }
-    };
-
-    function switchPrayerTab(tabElement, key) {
-      // Remover classe active de todos
-      document.querySelectorAll('.prayer-tab').forEach(tab => {
-        tab.classList.remove('active');
-      });
-
-      // Adicionar active na aba selecionada
-      tabElement.classList.add('active');
-
-      // Animando a transição de texto
-      const prayerTextEl = document.getElementById('prayerText');
-      const prayerCapEl = document.getElementById('prayerCap');
-
-      prayerTextEl.style.opacity = '0';
-      prayerCapEl.style.opacity = '0';
-
-      setTimeout(() => {
-        prayerTextEl.textContent = prayerTexts[key].text;
-        prayerCapEl.textContent = prayerTexts[key].cap;
-        prayerTextEl.style.opacity = '1';
-        prayerCapEl.style.opacity = '1';
-      }, 250);
-    }
-
-    // FAQ ACCORDION
-    function toggleFaq(headerElement) {
-      const faqItem = headerElement.parentElement;
-      const isActive = faqItem.classList.contains('active');
-
-      // Fechar todos
-      document.querySelectorAll('.faq-item').forEach(item => {
-        item.classList.remove('active');
-      });
-
-      // Se não estava ativo, abre
-      if (!isActive) {
-        faqItem.classList.add('active');
-      }
-    }
-
-    // BUTTONS RIPPLE EFFECT
-    document.querySelectorAll('.btn').forEach(button => {
-      button.addEventListener('click', function(e) {
-        const x = e.clientX - e.target.getBoundingClientRect().left;
-        const y = e.clientY - e.target.getBoundingClientRect().top;
-
-        const ripple = document.createElement('span');
-        ripple.classList.add('btn-ripple');
-        ripple.style.left = `${x}px`;
-        ripple.style.top = `${y}px`;
-
-        this.appendChild(ripple);
-
-        setTimeout(() => {
-          ripple.remove();
-        }, 500);
-      });
-    });
-
-    // CONTATO FORM HANDLER
-    function handleContactSubmit(e) {
-      e.preventDefault();
-      const name = document.getElementById('contactName').value;
-      const email = document.getElementById('contactEmail').value;
+    <!-- Chat Conversation Box Panel -->
+    <div id="chat-panel" class="hidden fixed bottom-24 right-6 w-[92vw] sm:w-[400px] h-[550px] bg-navy-dark border border-gold/30 rounded-3xl shadow-2xl flex flex-col overflow-hidden transition-all duration-300 transform scale-95 opacity-0 z-50">
       
-      alert(`Obrigado pelo seu contato, ${name}! Recebemos seus dados com sucesso. Responderemos em breve no e-mail: ${email}`);
-      document.getElementById('contactForm').reset();
+      <!-- Chat Header -->
+      <div class="p-4 bg-navy border-b border-gold/20 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full overflow-hidden border-2 border-gold relative shrink-0">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150" alt="Laís" class="w-full h-full object-cover">
+            <span class="absolute bottom-0 right-0 w-3 h-3 bg-green-500 border-2 border-navy rounded-full"></span>
+          </div>
+          <div>
+            <h4 class="font-serif font-bold text-sm text-white">Laís</h4>
+            <p class="text-[10px] text-gray-400 flex items-center gap-1">
+              <span>Assistente Vox Divina</span>
+              <span class="text-green-400 font-mono">• Online</span>
+            </p>
+          </div>
+        </div>
+        
+        <!-- Live Counter inside header -->
+        <div class="text-right">
+          <span class="text-[9px] text-gray-400 font-mono block">Fortalecendo a fé agora:</span>
+          <span class="text-xs font-bold text-gold font-mono" id="people-counter">1.284</span>
+        </div>
+      </div>
+
+      <!-- Messages Stream Area -->
+      <div id="chat-messages" class="flex-1 p-4 overflow-y-auto space-y-4 bg-navy-dark/90 scroll-smooth flex flex-col">
+        <!-- Welcoming Message (Static placeholder added via JS) -->
+      </div>
+
+      <!-- Typing Indicator placeholder -->
+      <div id="chat-typing" class="hidden px-4 py-2 flex items-center gap-2 text-xs text-gray-400 bg-navy-light/20 mx-4 rounded-xl max-w-max">
+        <span>Laís está digitando</span>
+        <div class="flex gap-1">
+          <span class="w-1.5 h-1.5 bg-gold rounded-full typing-dot"></span>
+          <span class="w-1.5 h-1.5 bg-gold rounded-full typing-dot"></span>
+          <span class="w-1.5 h-1.5 bg-gold rounded-full typing-dot"></span>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons Drawer -->
+      <div class="p-3 bg-navy border-t border-gold/20">
+        <p class="text-[10px] text-gray-400 uppercase font-mono tracking-wider mb-2 text-center">Toque para interagir instantaneamente:</p>
+        <div class="flex flex-wrap gap-1.5 max-h-36 overflow-y-auto p-1" id="quick-buttons-container">
+          <!-- Button templates rendered dynamically below -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- EXIT INTENT MODAL DIALOG -->
+  <div id="exit-modal" class="fixed inset-0 bg-navy-dark/90 z-[99999] hidden flex items-center justify-center p-4 backdrop-blur-md">
+    <div class="bg-navy border-2 border-gold rounded-3xl p-8 max-w-lg w-full text-center relative shadow-2xl transform scale-95 transition-all duration-300">
+      
+      <!-- Close Exit Intent -->
+      <button onclick="closeExitModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gold transition-colors p-1" aria-label="Fechar modal">
+        <i data-lucide="x" class="w-6 h-6"></i>
+      </button>
+
+      <div class="w-16 h-16 bg-gold/15 text-gold rounded-full flex items-center justify-center mx-auto mb-5">
+        <i data-lucide="gift" class="w-8 h-8"></i>
+      </div>
+
+      <span class="text-gold uppercase font-mono text-xs tracking-widest font-bold">Espera! Não Vá Embora Ainda 🙏</span>
+      <h3 class="font-serif text-2xl md:text-3xl font-bold text-white mt-2 mb-4">Garanta os Seus 3 Presentes Hoje!</h3>
+      <p class="text-gray-300 text-sm leading-relaxed mb-6">
+        Queremos muito apoiar a sua comunhão diária. Adquirindo o e-book das <strong>200 Orações Poderosas</strong> agora por apenas <span class="text-gold font-bold font-serif text-lg">R$ 12,99</span>, você leva todos os 3 bônus exclusivos gratuitamente!
+      </p>
+
+      <div class="space-y-2 mb-6 text-left max-w-sm mx-auto font-mono text-xs text-gray-400">
+        <p class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-gold shrink-0"></i> Guia Prático de Foco na Oração</p>
+        <p class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-gold shrink-0"></i> Cronograma de Oração de 30 Dias</p>
+        <p class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-gold shrink-0"></i> Seleção de Promessas de Consolo</p>
+      </div>
+
+      <div class="flex flex-col gap-3">
+        <a href="https://pay.kiwify.com.br/749ZSIM" target="_blank" class="btn-ripple w-full py-4 bg-gold hover:bg-gold-dark text-navy font-bold rounded-full transition-all duration-300 text-md shadow-lg shadow-gold/20 uppercase tracking-widest text-center">
+          🛒 Quero Garantir Meus Bônus
+        </a>
+        <button onclick="closeExitModal()" class="text-gray-400 hover:text-white text-xs underline focus:outline-none">
+          Prefiro fechar e continuar lendo a página
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CORE SCRIPTS & CORE BUSINESS LOGIC -->
+  <script>
+    // INITIALIZE ICONS ON LOAD
+    document.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+      
+      // Hide Preloader smoothly
+      const preloader = document.getElementById('preloader');
+      setTimeout(() => {
+        preloader.style.opacity = '0';
+        setTimeout(() => preloader.style.display = 'none', 500);
+      }, 1000);
+    });
+
+    // CUSTOM CURSOR LOGIC FOR DESKTOP
+    const cursor = document.getElementById('cursor');
+    const cursorDot = document.getElementById('cursor-dot');
+    
+    document.addEventListener('mousemove', (e) => {
+      if (cursor && cursorDot) {
+        cursor.style.left = e.clientX + 'px';
+        cursor.style.top = e.clientY + 'px';
+        cursorDot.style.left = e.clientX + 'px';
+        cursorDot.style.top = e.clientY + 'px';
+      }
+    });
+
+    // Expand cursor hover animations on buttons and links
+    document.querySelectorAll('a, button, [onclick]').forEach(elem => {
+      elem.addEventListener('mouseenter', () => {
+        if (cursor) {
+          cursor.style.width = '35px';
+          cursor.style.height = '35px';
+          cursor.style.backgroundColor = 'rgba(197, 160, 89, 0.15)';
+        }
+      });
+      elem.addEventListener('mouseleave', () => {
+        if (cursor) {
+          cursor.style.width = '20px';
+          cursor.style.height = '20px';
+          cursor.style.backgroundColor = 'transparent';
+        }
+      });
+    });
+
+    // NAVBAR ON SCROLL EFFECT (Glassmorphism transition)
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      const btnTop = document.getElementById('btn-top');
+      
+      if (window.scrollY > 50) {
+        navbar.classList.remove('py-5', 'bg-transparent', 'border-transparent');
+        navbar.classList.add('py-3', 'bg-navy-dark/95', 'backdrop-blur-md', 'border-white/10 shadow-lg');
+      } else {
+        navbar.classList.add('py-5', 'bg-transparent', 'border-transparent');
+        navbar.classList.remove('py-3', 'bg-navy-dark/95', 'backdrop-blur-md', 'border-white/10', 'shadow-lg');
+      }
+
+      // Back to top button triggers
+      if (window.scrollY > 500) {
+        btnTop.classList.remove('opacity-0', 'pointer-events-none');
+        btnTop.classList.add('opacity-100', 'pointer-events-auto');
+      } else {
+        btnTop.classList.add('opacity-0', 'pointer-events-none');
+        btnTop.classList.remove('opacity-100', 'pointer-events-auto');
+      }
+    });
+
+    // BACK TO TOP ACTION
+    document.getElementById('btn-top').addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // MOBILE DRAWER MENU INTERACTIVITY
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenuClose = document.getElementById('mobile-menu-close');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.remove('translate-x-full');
+    });
+    mobileMenuClose.addEventListener('click', () => {
+      mobileMenu.classList.add('translate-x-full');
+    });
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('translate-x-full');
+      });
+    });
+
+    // HERO PARTICLES BACKGROUND CANVAS
+    const canvas = document.getElementById('hero-canvas');
+    const ctx = canvas.getContext('2d');
+    let particlesArray = [];
+
+    function resizeCanvas() {
+      canvas.width = canvas.parentElement.offsetWidth;
+      canvas.height = canvas.parentElement.offsetHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.size = Math.random() * 2 + 0.5;
+        this.speedX = Math.random() * 0.2 - 0.1;
+        this.speedY = Math.random() * -0.4 - 0.1; // Float upwards
+        this.opacity = Math.random() * 0.5 + 0.2;
+      }
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+        if (this.y < 0) {
+          this.y = canvas.height;
+          this.x = Math.random() * canvas.width;
+        }
+      }
+      draw() {
+        ctx.save();
+        ctx.globalAlpha = this.opacity;
+        ctx.fillStyle = '#C5A059'; // Gold dust particles
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      }
     }
 
-    // SOCIAL PROOF TOAST POPUP (SIMULAÇÃO REALISTA)
-    const toastElement = document.getElementById('socialProofToast');
-    const toastTitle = document.getElementById('toastTitle');
-    const toastSubtitle = document.getElementById('toastSubtitle');
+    function initParticles() {
+      particlesArray = [];
+      const numberOfParticles = Math.min(60, Math.floor(canvas.width / 20));
+      for (let i = 0; i < numberOfParticles; i++) {
+        particlesArray.push(new Particle());
+      }
+    }
+    initParticles();
 
-    const names = ['Ana Silva', 'Marcos Oliveira', 'Maria Santos', 'Fernanda Lima', 'Rodrigo Neves', 'Luciana Pereira', 'Carlos Eduardo', 'Juliana Alencar', 'Beatriz Costa'];
-    const locations = ['Belo Horizonte', 'São Paulo', 'Rio de Janeiro', 'Curitiba', 'Salvador', 'Fortaleza', 'Recife', 'Goiânia', 'Porto Alegre'];
-    const purchaseMethods = ['via Pix', 'no Cartão', 'via Pix'];
+    function animateParticles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let i = 0; i < particlesArray.length; i++) {
+        particlesArray[i].update();
+        particlesArray[i].draw();
+      }
+      requestAnimationFrame(animateParticles);
+    }
+    animateParticles();
 
-    const triggerToast = () => {
-      const randomName = names[Math.floor(Math.random() * names.length)];
-      const randomLoc = locations[Math.floor(Math.random() * locations.length)];
-      const randomMethod = purchaseMethods[Math.floor(Math.random() * purchaseMethods.length)];
-      const randomMinutes = Math.floor(Math.random() * 5) + 1;
+    // RIPPLE EFFECT ON BUTTONS
+    document.addEventListener('click', (e) => {
+      const btn = e.target.closest('.btn-ripple');
+      if (btn) {
+        const circle = document.createElement('span');
+        const diameter = Math.max(btn.clientWidth, btn.clientHeight);
+        const radius = diameter / 2;
+        const rect = btn.getBoundingClientRect();
 
-      toastTitle.textContent = `${randomName} (${randomLoc}) acabou de comprar`;
-      toastSubtitle.textContent = `Há ${randomMinutes} minutos ${randomMethod}`;
+        circle.style.width = circle.style.height = `${diameter}px`;
+        circle.style.left = `${e.clientX - rect.left - radius}px`;
+        circle.style.top = `${e.clientY - rect.top - radius}px`;
+        circle.classList.add('ripple');
 
-      toastElement.classList.add('visible');
+        const oldRipple = btn.querySelector('.ripple');
+        if (oldRipple) oldRipple.remove();
+
+        btn.appendChild(circle);
+      }
+    });
+
+    // INTERACTIVE INLINE CHRISTIAN QUIZ
+    function handleQuizAnswer(isDaily) {
+      const q = document.getElementById('quiz-question');
+      const r = document.getElementById('quiz-result');
+      const title = document.getElementById('quiz-result-title');
+      const text = document.getElementById('quiz-result-text');
+
+      if (isDaily) {
+        title.innerHTML = 'Que Bênção Maravilhosa! 🙏';
+        text.innerHTML = 'Ficamos extremamente felizes em saber que a oração já é o seu escudo diário. A intimidade com o Senhor transforma realidades. Nosso e-book vai trazer ainda mais fôlego, variedade e profundidade aos seus devocionais.';
+      } else {
+        title.innerHTML = 'Nunca é Tarde Para Começar! ❤️';
+        text.innerHTML = 'Uma oração simples e sincera pode transformar completamente o rumo do seu dia. O e-book foi pensado justamente para guiar quem quer criar esse hábito precioso de forma leve, oferecendo as orações ideais para começar hoje.';
+      }
+
+      q.classList.add('hidden');
+      r.classList.remove('hidden');
+    }
+
+    // FAQ ACCORDION INTERACTION
+    function toggleFaq(button) {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector('[data-lucide="chevron-down"]');
+      const allAccordions = document.querySelectorAll('#faq .bg-navy');
+
+      // Close all other accordions
+      allAccordions.forEach(item => {
+        const btn = item.querySelector('button');
+        const c = item.querySelector('.bg-navy-light\\/20');
+        const i = item.querySelector('[data-lucide="chevron-down"]');
+        if (btn !== button && c) {
+          c.style.maxHeight = null;
+          if (i) i.style.transform = 'rotate(0deg)';
+        }
+      });
+
+      // Toggle current accordion
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+        if (icon) icon.style.transform = 'rotate(0deg)';
+      } else {
+        content.style.maxHeight = content.scrollHeight + 'px';
+        if (icon) icon.style.transform = 'rotate(180deg)';
+      }
+    }
+
+    // GALLERY LIGHTBOX VIEW
+    function openLightbox(element) {
+      const img = element.querySelector('img').src;
+      const caption = element.querySelector('p').textContent;
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      const lightboxCap = document.getElementById('lightbox-caption');
+
+      if (lightbox && lightboxImg) {
+        lightboxImg.src = img;
+        lightboxCap.textContent = caption;
+        lightbox.classList.remove('hidden');
+        lightbox.classList.add('flex');
+        document.body.style.overflow = 'hidden'; // Lock background scroll
+      }
+    }
+    function closeLightbox() {
+      const lightbox = document.getElementById('lightbox');
+      if (lightbox) {
+        lightbox.classList.add('hidden');
+        lightbox.classList.remove('flex');
+        document.body.style.overflow = ''; // Restore scroll
+      }
+    }
+
+    // FINAL CTA SCARCITY TIMER COUNTDOWN (15 minutes reset)
+    const countdownEl = document.getElementById('countdown-timer');
+    let timeRemaining = 15 * 60; // 15 mins in seconds
+
+    function updateCountdown() {
+      const minutes = Math.floor(timeRemaining / 60);
+      const seconds = timeRemaining % 60;
+      const formattedMins = String(minutes).padStart(2, '0');
+      const formattedSecs = String(seconds).padStart(2, '0');
+
+      if (countdownEl) {
+        countdownEl.textContent = `00:${formattedMins}:${formattedSecs}`;
+      }
+
+      if (timeRemaining <= 0) {
+        timeRemaining = 15 * 60; // Loop countdown for continuous urgency simulation
+      } else {
+        timeRemaining--;
+      }
+    }
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+
+
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // LAÍS VIRTUAL ASSISTANT CHATBOT LOGIC
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    const chatTrigger = document.getElementById('chat-trigger');
+    const chatPanel = document.getElementById('chat-panel');
+    const chatBubble = document.getElementById('chat-bubble');
+    const chatMessages = document.getElementById('chat-messages');
+    const chatTyping = document.getElementById('chat-typing');
+    const chatBadge = document.getElementById('chat-badge');
+    const quickButtonsContainer = document.getElementById('quick-buttons-container');
+
+    const chatIconMsg = document.getElementById('chat-icon-msg');
+    const chatIconClose = document.getElementById('chat-icon-close');
+
+    let chatInitialized = false;
+
+    // 30 BIBLE VERSES DATABASE
+    const bibleVerses = [
+      "Filipenses 4:13 - Tudo posso naquele que me fortalece.",
+      "Salmo 23:1 - O Senhor é o meu pastor, nada me faltará.",
+      "Isaías 41:10 - Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus.",
+      "Mateus 11:28 - Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.",
+      "João 14:27 - Deixo-vos a paz, a minha paz vos dou; não vo-la dou como o mundo a dá.",
+      "Romanos 8:28 - Sabemos que todas as coisas cooperam para o bem daqueles que amam a Deus.",
+      "Josué 1:9 - Não fui eu que lhe ordenei? Seja forte e corajoso! Não se apavore, nem desanime.",
+      "Salmo 46:1 - Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia.",
+      "Provérbios 3:5 - Confie no Senhor de todo o seu coração e não se apoie em seu próprio entendimento.",
+      "Jeremias 29:11 - Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor.",
+      "Romanos 12:12 - Alegrem-se na esperança, sejam pacientes na tribulação, perseverem na oração.",
+      "Salmo 91:1 - Aquele que habita no abrigo do Altíssimo e descansa à sombra do Todo-Poderoso...",
+      "Mateus 6:33 - Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas lhes serão acrescentadas.",
+      "João 16:33 - No mundo tereis aflições, mas tende bom ânimo; eu venci o mundo.",
+      "1 Pedro 5:7 - Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.",
+      "Efésios 6:10 - Finalmente, fortaleçam-se no Senhor e na força do seu poder.",
+      "Salmo 37:5 - Entregue o seu caminho ao Senhor; confie nele, e ele agirá.",
+      "2 Timóteo 1:7 - Pois Deus não nos deu espírito de covardia, mas de poder, de amor e de equilíbrio.",
+      "Salmo 119:105 - Lâmpada para os meus pés é tua palavra, e luz para o meu caminho.",
+      "Hebreus 11:1 - Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos.",
+      "Colossenses 3:15 - Que a paz de Cristo seja o juiz em seus corações...",
+      "Salmo 121:1 - Elevo os meus olhos para os montes; de onde me vem o socorro? O meu socorro vem do Senhor.",
+      "Gálatas 5:22 - Mas o fruto do Espírito é amor, alegria, paz, paciência, amabilidade, bondade, fidelidade...",
+      "Mateus 7:7 - Peçam, e lhes será dado; busquem, e encontrarão; batam, e a porta lhes será aberta.",
+      "Salmo 27:1 - O Senhor é a minha luz e a minha salvação; de quem terei temor?",
+      "Filipenses 4:6 - Não andem ansiosos por coisa alguma, mas em tudo apresentem seus pedidos a Deus.",
+      "Isaías 40:31 - Mas aqueles que esperam no Senhor renovam as suas forças. Voam bem alto como águias.",
+      "Salmo 139:14 - Eu te louvo porque me fizeste de modo especial e admirável.",
+      "Jeremias 33:3 - Clame a mim e eu responderei e lhe direi coisas grandiosas e insondáveis.",
+      "Tiago 4:8 - Aproximem-se de Deus, e ele se aproximará de vocês."
+    ];
+
+    // CHATBOT INTERACTIVE ACTION BUTTON TEMPLATE LIST
+    const chatActions = [
+      { id: 'sobre', label: '📖 Sobre o e-book', res: 'O e-book "200 Orações Poderosas para Todas as Situações" é uma compilação devocional luxuosa em formato digital PDF. Foi projetado para ser seu escudo diário, trazendo paz, direção e conforto no seu dia a dia.' },
+      { id: 'preco', label: '💰 Qual o preço?', res: 'O e-book completo com as 200 orações e os 3 presentes bônus inclusos custa apenas R$ 12,99. É uma taxa única, sem qualquer tipo de mensalidade!' },
+      { id: 'recebimento', label: '📥 Como recebo?', res: 'O recebimento é imediato. Assim que o pagamento (Pix ou Cartão) for processado pela plataforma segura Kiwify, você recebe na hora um e-mail contendo o link direto de download do PDF.' },
+      { id: 'celular', label: '📱 Funciona no celular?', res: 'Sim! Funciona perfeitamente em celular, tablet, computador de mesa ou notebook. Você também pode imprimi-lo em alta qualidade.' },
+      { id: 'conteudo', label: '📚 O que vou aprender?', res: 'São 200 orações organizadas por temas práticos de sua vida cotidiana, como Cura, Proteção, Prosperidade, Família, contra Ansiedade, Gratidão, Libertação, Paz Interior e muito mais!' },
+      { id: 'fe', label: '✝️ Quero fortalecer minha fé', res: 'Que bênção gloriosa! Ter o propósito de buscar a Deus diariamente através de orações estruturadas é o primeiro grande passo para edificar seu espírito e acalmar o coração.' },
+      { id: 'bonus', label: '🎁 Tem bônus?', res: 'Sim! Adquirindo o livro hoje, você ganha 3 bônus exclusivos: 1) Guia de Leitura Prático, 2) Plano de Oração estruturado para 30 Dias, e 3) Seleção bíblica de Versículos para Momentos Difíceis.' },
+      { id: 'youtube', label: '▶ Conhecer o canal', res: 'Você pode escutar orações incríveis diariamente e refletir com vídeos de alta qualidade no canal oficial do YouTube Vox Divina: https://youtube.com/@voxdivina-96?si=Y1RGcEYRqRzxDdoV' },
+      { id: 'email', label: '📧 Falar por e-mail', res: 'Para qualquer dúvida técnica ou suporte de recebimento do seu e-book, você pode nos contatar diretamente através do endereço de e-mail: andreicosta2525@gmail.com' },
+      { id: 'comprar', label: '🛒 Comprar agora', res: 'Excelente decisão espiritual! Clique no link oficial para garantir suas 200 Orações e bônus pelo preço especial de R$ 12,99: https://pay.kiwify.com.br/749ZSIM' },
+      { id: 'versiculo', label: '📖 Receber um versículo', res: 'versiculo_random' },
+      { id: 'oracao', label: '🙏 Fazer uma oração', res: 'Senhor Deus, abençoe profundamente esta vida que me ouve. Conceda paz ao seu coração aflito, fortaleça sua fé contra as tribulações diárias, guarde toda a sua família sob Teu manto de glória e conduza cada um de seus passos segundo a Tua santa vontade. Em nome de Jesus, Amém! ✨' }
+    ];
+
+    // INJECT QUICK BUTTONS
+    function renderQuickButtons() {
+      quickButtonsContainer.innerHTML = '';
+      chatActions.forEach(act => {
+        const btn = document.createElement('button');
+        btn.className = 'px-3 py-1.5 bg-navy-light hover:bg-gold/10 text-xs text-gray-200 border border-white/10 hover:border-gold rounded-full transition-all duration-200 shrink-0';
+        btn.textContent = act.label;
+        btn.onclick = () => handleUserAction(act);
+        quickButtonsContainer.appendChild(btn);
+      });
+    }
+
+    // TOGGLE CHAT ACTION
+    chatTrigger.addEventListener('click', () => {
+      toggleChat();
+    });
+
+    function toggleChat() {
+      if (chatPanel.classList.contains('hidden')) {
+        // Open
+        chatPanel.classList.remove('hidden');
+        setTimeout(() => {
+          chatPanel.classList.remove('scale-95', 'opacity-0');
+          chatPanel.classList.add('scale-100', 'opacity-100');
+        }, 10);
+        
+        chatIconMsg.classList.add('hidden');
+        chatIconClose.classList.remove('hidden');
+        chatBadge.classList.add('hidden'); // Dismiss badge alert
+
+        if (!chatInitialized) {
+          sendWelcomeMessage();
+          renderQuickButtons();
+          chatInitialized = true;
+        }
+      } else {
+        // Close
+        chatPanel.classList.add('scale-95', 'opacity-0');
+        chatPanel.classList.remove('scale-100', 'opacity-100');
+        setTimeout(() => {
+          chatPanel.classList.add('hidden');
+        }, 300);
+
+        chatIconMsg.classList.remove('hidden');
+        chatIconClose.classList.add('hidden');
+      }
+    }
+
+    // SHOW BUBBLE AFTER 5 SECONDS
+    setTimeout(() => {
+      if (!chatInitialized && chatPanel.classList.contains('hidden')) {
+        chatBubble.classList.remove('hidden');
+        setTimeout(() => {
+          chatBubble.classList.remove('scale-95', 'opacity-0');
+          chatBubble.classList.add('scale-100', 'opacity-100');
+        }, 10);
+      }
+    }, 5000);
+
+    // Click on floating bubble opens chat
+    chatBubble.addEventListener('click', () => {
+      chatBubble.classList.add('hidden');
+      toggleChat();
+    });
+
+    function closeBubble(event) {
+      event.stopPropagation(); // Avoid triggering open chat
+      chatBubble.classList.add('hidden');
+    }
+
+    // CHAT MESSAGES LOGIC
+    function addMessage(sender, text) {
+      const msgDiv = document.createElement('div');
+      msgDiv.className = `flex flex-col max-w-[85%] ${sender === 'user' ? 'self-end items-end ml-auto' : 'self-start items-start mr-auto'}`;
+
+      const textBubble = document.createElement('div');
+      textBubble.className = `p-3.5 rounded-2xl text-sm leading-relaxed ${sender === 'user' ? 'bg-gold text-navy font-semibold rounded-br-none' : 'bg-navy text-white border border-white/5 rounded-bl-none'}`;
+      textBubble.innerHTML = text;
+
+      msgDiv.appendChild(textBubble);
+      chatMessages.appendChild(msgDiv);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    // TYPING INDICATOR LOGIC
+    function showTypingIndicator(show) {
+      if (show) {
+        chatTyping.classList.remove('hidden');
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      } else {
+        chatTyping.classList.add('hidden');
+      }
+    }
+
+    function sendWelcomeMessage() {
+      showTypingIndicator(true);
+      setTimeout(() => {
+        showTypingIndicator(false);
+        addMessage('assistant', `🙏 Olá! Que a paz de Deus esteja com você!<br><br>Sou a <strong>Laís</strong>, Assistente Virtual da Vox Divina.<br><br>Estou aqui para ajudar você a conhecer nosso e-book especial de orações, responder dúvidas rápidas e orientar sua caminhada de fé.<br><br>Como posso ajudar você hoje?`);
+      }, 1000);
+    }
+
+    // HANDLE USER INTERACTION BUTTONS
+    function handleUserAction(act) {
+      // 1. Post user message
+      addMessage('user', act.label);
+
+      // 2. Typing indicator delay
+      showTypingIndicator(true);
 
       setTimeout(() => {
-        toastElement.classList.remove('visible');
-      }, 5500);
-    };
+        showTypingIndicator(false);
+        let responseText = act.res;
 
-    // Trigger inicial com delay
-    setTimeout(triggerToast, 7000);
-    // Loop periódico
-    setInterval(triggerToast, 18000);
+        // Custom action handlers
+        if (act.id === 'versiculo') {
+          const randomIndex = Math.floor(Math.random() * bibleVerses.length);
+          const verse = bibleVerses[randomIndex];
+          responseText = `📖 <strong>Aqui está sua Palavra de Fé de hoje:</strong><br><br><span class="font-serif italic text-gold">"${verse.split(' - ')[1]}"</span><br><br>— ${verse.split(' - ')[0]}`;
+        }
+
+        addMessage('assistant', responseText);
+
+        // 3. Post automatic followup footer template
+        setTimeout(() => {
+          showTypingIndicator(true);
+          setTimeout(() => {
+            showTypingIndicator(false);
+            addFollowUpBlock();
+          }, 800);
+        }, 1200);
+
+      }, 1500);
+    }
+
+    // FOLLOW UP SUGGESTION INTERACTIVE TEMPLATE
+    function addFollowUpBlock() {
+      const blockDiv = document.createElement('div');
+      blockDiv.className = 'p-4 bg-navy-light/40 border border-gold/20 rounded-2xl text-center space-y-3 w-full';
+      blockDiv.innerHTML = `
+        <p class="text-xs text-gray-300">Posso ajudar com mais alguma coisa?</p>
+        <div class="flex flex-col gap-2">
+          <a href="https://pay.kiwify.com.br/749ZSIM" target="_blank" class="px-4 py-2 bg-gold hover:bg-gold-dark text-navy text-xs font-bold rounded-full transition-all text-center block">Comprar o E-book (R$ 12,99)</a>
+          <a href="https://youtube.com/@voxdivina-96?si=Y1RGcEYRqRzxDdoV" target="_blank" class="px-4 py-2 bg-navy hover:bg-navy/80 border border-white/20 text-white text-[11px] font-semibold rounded-full text-center block">Ir Para o Canal no YouTube</a>
+          <button onclick="scrollFaq()" class="px-4 py-2 bg-navy text-[10px] hover:text-gold text-gray-300 font-mono text-center block w-full underline">Ver Outras Dúvidas</button>
+        </div>
+      `;
+      chatMessages.appendChild(blockDiv);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    function scrollFaq() {
+      toggleChat();
+      const faqSection = document.getElementById('faq');
+      if (faqSection) {
+        faqSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+
+    // DYNAMIC TICKING ACTIVE USERS COUNTER IN CHAT HEADER
+    const counterEl = document.getElementById('people-counter');
+    let baseCounter = 1284;
+    function tickCounter() {
+      const increment = Math.floor(Math.random() * 4) + 1; // Increases by 1 to 4 people
+      baseCounter += increment;
+      if (counterEl) {
+        counterEl.textContent = baseCounter.toLocaleString('pt-BR');
+      }
+      setTimeout(tickCounter, Math.random() * 5000 + 3000); // Ticks every 3 to 8 seconds
+    }
+    setTimeout(tickCounter, 3000);
+
+
+    // AUTOMATIC TIMED NOTIFICATIONS
+    // After 15 seconds
+    setTimeout(() => {
+      if (!chatPanel.classList.contains('hidden')) {
+        addMessage('assistant', '🙏 Posso ajudar você a encontrar a categoria de oração ideal para o seu momento? Temos orações voltadas para Cura, Família, Ansiedade e Prosperidade.');
+      }
+    }, 15000);
+
+    // After 35 seconds
+    setTimeout(() => {
+      if (!chatPanel.classList.contains('hidden')) {
+        addMessage('assistant', '📖 Sabia que este e-book possui as 200 orações completas e organizadas de forma lindíssima em PDF para ler no celular? É muito fácil de usar.');
+      }
+    }, 35000);
+
+    // After 60 seconds (1 minute): Buy suggestion
+    setTimeout(() => {
+      if (!chatPanel.classList.contains('hidden')) {
+        addMessage('assistant', '💛 Muitas vidas já foram edificadas e aproximadas de Deus através destas orações diárias. Garanta seu e-book com os 3 bônus exclusivos por apenas R$ 12,99.');
+      }
+    }, 60000);
+
+    // After 120 seconds (2 minutes): Youtube Channel Reminder
+    setTimeout(() => {
+      if (chatPanel) {
+        addMessage('assistant', '💛 Lembramos que todos os dias publicamos maravilhosas orações narradas e mensagens cristãs em nosso canal do YouTube. Não esqueça de se inscrever para caminhar conosco na fé!');
+        const youtubeBtnDiv = document.createElement('div');
+        youtubeBtnDiv.className = 'p-3 text-center';
+        youtubeBtnDiv.innerHTML = `
+          <a href="https://youtube.com/@voxdivina-96?si=Y1RGcEYRqRzxDdoV" target="_blank" class="inline-flex items-center gap-1.5 px-6 py-2.5 bg-red-600 hover:bg-red-700 text-white font-bold text-xs rounded-full shadow-md">
+            <i data-lucide="youtube" class="w-4 h-4"></i>
+            <span>Ir para o Canal</span>
+          </a>
+        `;
+        chatMessages.appendChild(youtubeBtnDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+        lucide.createIcons();
+      }
+    }, 120000);
+
+
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // EXIT INTENT MODAL DETECTION
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    let exitModalTriggered = false;
+
+    // Detect mouse leaving window top boundary
+    document.addEventListener('mouseleave', (e) => {
+      if (e.clientY < 50 && !exitModalTriggered) {
+        openExitModal();
+      }
+    });
+
+    // Timeout fallback exit intent: open after 90 seconds
+    setTimeout(() => {
+      if (!exitModalTriggered) {
+        openExitModal();
+      }
+    }, 90000);
+
+    function openExitModal() {
+      const modal = document.getElementById('exit-modal');
+      const dialog = modal.querySelector('.bg-navy');
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        setTimeout(() => {
+          dialog.classList.remove('scale-95');
+          dialog.classList.add('scale-100');
+        }, 10);
+        exitModalTriggered = true;
+        document.body.style.overflow = 'hidden'; // Lock scrolling
+      }
+    }
+
+    function closeExitModal() {
+      const modal = document.getElementById('exit-modal');
+      const dialog = modal.querySelector('.bg-navy');
+      if (modal) {
+        dialog.classList.remove('scale-100');
+        dialog.classList.add('scale-95');
+        setTimeout(() => {
+          modal.classList.add('hidden');
+          modal.classList.remove('flex');
+          document.body.style.overflow = ''; // Restore scrolling
+        }, 200);
+      }
+    }
   </script>
 </body>
 </html>
